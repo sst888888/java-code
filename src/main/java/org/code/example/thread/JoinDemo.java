@@ -1,6 +1,7 @@
 package org.code.example.thread;
 
-import jdk.internal.org.objectweb.asm.util.Printer;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  * @ClassName JoinDemo
@@ -11,43 +12,40 @@ import jdk.internal.org.objectweb.asm.util.Printer;
  **/
 public class JoinDemo {
 
+    private static final Logger logger = LoggerFactory.getLogger(JoinDemo.class);
+
     public static void main(String[] args) throws InterruptedException{
         Thread t1 = new Thread(() -> {
-            System.out.println("running");
+            logger.info("running1");
             try {
                 Thread.sleep(3000);
-                System.out.println("thread1 end");
+                logger.info("thread1 end");
             } catch (InterruptedException e) {
-                System.out.println(e.getMessage());
+                logger.info(e.getMessage());
+                Thread.currentThread().interrupt();
             }
         });
 
-        t1.setName("test");
-
-        Thread t2 = new Thread(new Runnable() {
-            @Override
-            public void run() {
-
-                System.out.println("running2");
-                try {
-                    Thread.sleep(2000);
-                    System.out.println("thread2 end");
-                }catch (InterruptedException e){
-                    System.out.println(e.getMessage());
-                }
+        Thread t2 = new Thread(() -> {
+            logger.info("running2");
+            try {
+                Thread.sleep(2000);
+                logger.info("thread2 end");
+            }catch (InterruptedException e){
+                logger.info(e.getMessage());
+                Thread.currentThread().interrupt();
             }
         });
 
         t1.start();
         t2.start();
 
+        // 主线程等待子线程结束
         t1.join();
         t2.join();
 
-        System.out.println("end.........");
-
+        logger.info("end.........");
     }
-
 
 
 }
