@@ -21,7 +21,7 @@ public class MetricsCollector {
 
     private static final int DEFAULT_STORAGE_THREAD_POOL_SIZE = 20;
 
-    private MetricsStorage metricsStorage;//基于接口而非实现编程
+    private final MetricsStorage metricsStorage;//基于接口而非实现编程
     private EventBus eventBus;
 
     //依赖注入
@@ -61,5 +61,8 @@ public class MetricsCollector {
             metricsStorage.saveRequestInfo(requestInfo);
         }
     }
+
+
+
 
 }

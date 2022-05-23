@@ -2,7 +2,7 @@ package decrot.base;
 
 public abstract class BaseDecorator implements IDecorator{
 
-    private IDecorator decorator;
+    private final IDecorator decorator;
 
     public BaseDecorator(IDecorator decorator) {
         this.decorator = decorator;

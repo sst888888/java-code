@@ -10,6 +10,7 @@
         <module>java_algorithm</module>
         <module>java_base</module>
         <module>mmall</module>
+        <module>java_100</module>
     </modules>
 
     <parent>

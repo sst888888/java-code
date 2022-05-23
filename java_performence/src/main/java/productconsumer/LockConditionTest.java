@@ -47,6 +47,7 @@ public class LockConditionTest {
                 notFullCondition.signalAll();
             }
         } catch (InterruptedException e1) {
+            Thread.currentThread().interrupt();
             e1.printStackTrace();
         } finally {
             productLock.unlock();
@@ -57,6 +58,7 @@ public class LockConditionTest {
                 consumerLock.lockInterruptibly();
                 notEmptyCondition.signalAll();
             } catch (InterruptedException e1) {
+                Thread.currentThread().interrupt();
                 e1.printStackTrace();
             } finally {
                 consumerLock.unlock();
@@ -84,6 +86,7 @@ public class LockConditionTest {
                 notEmptyCondition.signalAll();
             }
         } catch (InterruptedException e) {
+            Thread.currentThread().interrupt();
             e.printStackTrace();
         } finally {
             consumerLock.unlock();
@@ -94,6 +97,7 @@ public class LockConditionTest {
                 productLock.lockInterruptibly();
                 notFullCondition.signalAll();
             } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
                 e.printStackTrace();
             } finally {
                 productLock.unlock();

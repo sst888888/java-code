@@ -15,9 +15,9 @@ import java.lang.reflect.Method;
  * @Version 1.0
  **/
 public class SimpleAspectCglibInterceptor implements MethodInterceptor {
-    private Object target;//目标代理对象
-    private Aspect aspect;
-    private Class classz;
+    private final Object target;//目标代理对象
+    private final Aspect aspect;
+    private final Class classz;
 
     public SimpleAspectCglibInterceptor(Object target, Class classz, Aspect aspect) {
         this.target = target;

@@ -1,6 +1,9 @@
 package common.aspect;
 
 
+import common.annotation.Service;
+import lombok.extern.slf4j.Slf4j;
+
 import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -17,24 +20,25 @@ import java.util.concurrent.TimeUnit;
  * @Date 2020/6/27 16:30
  * @Version 1.0
  **/
-//@Service
+@Service
+@Slf4j
 public class ApiMonitorAspect implements Aspect {
 
     // Map的key是接口名称，value对应接口请求的响应时间或时间戳；
     private long startTime = 0;
-    private Map<String, List<Long>> timestamps = new HashMap<>();
-    private Map<String, List<Long>> responseTimes = new HashMap<>();
-    private ScheduledExecutorService executor = Executors.newSingleThreadScheduledExecutor();
+    private final Map<String, List<Long>> timestamps = new HashMap<>();
+    private final Map<String, List<Long>> responseTimes = new HashMap<>();
+    private final ScheduledExecutorService executor = Executors.newSingleThreadScheduledExecutor();
 
     public void recordResponseTime(String apiName, long responseTime) {
-        System.out.println("/" + apiName + " 接口调用结束  耗时：" + responseTime);
+        log.info("/{} 接口调用结束 耗时：{}" , apiName , responseTime);
         responseTimes.putIfAbsent(apiName, new ArrayList<>());
         responseTimes.get(apiName).add(responseTime);
     }
 
     public void recordTimestamp(String apiName, long timestamp) {
         this.startTime = timestamp;
-        System.out.println("/" + apiName + " 接口被调用 当前时间戳为：" + timestamp);
+        log.info("/{} 接口被调用 当前时间戳为：{}" ,apiName ,timestamp);
         timestamps.putIfAbsent(apiName, new ArrayList<>());
         timestamps.get(apiName).add(timestamp);
     }
@@ -50,12 +54,12 @@ public class ApiMonitorAspect implements Aspect {
     }
 
     private double avg(List<Long> dataset) {
-        if (dataset.size() == 0) {
+        if (dataset.isEmpty()) {
             return 0;
         }
         double sum = 0;
         for (Long num : dataset) {
-            sum += sum;
+            sum += num;
         }
         return sum / dataset.size();
     }
@@ -96,7 +100,7 @@ public class ApiMonitorAspect implements Aspect {
 
     @Override
     public void afterException(Object target, Method method, Object[] args) {
-
+        log.info("null");
     }
 
 }

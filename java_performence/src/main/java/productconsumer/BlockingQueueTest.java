@@ -27,6 +27,7 @@ public class BlockingQueueTest {
             log.info("放入一个商品库存，总库存为：" + product.size());
         } catch (InterruptedException e1) {
             e1.printStackTrace();
+            Thread.currentThread().interrupt();
         }
     }
 
@@ -34,9 +35,9 @@ public class BlockingQueueTest {
         String result = null;
         try {
             result = product.take();
-            log.info("消费一个商品，总库存为：" + product.size());
         } catch (InterruptedException e) {
             e.printStackTrace();
+            Thread.currentThread().interrupt();
         }
 
         return result;
