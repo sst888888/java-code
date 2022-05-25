@@ -8,3 +8,15 @@ server:
 #    url: ${ddpay.datasource.user.url}
 #    username: ${ddpay.datasource.user.username}
 #    password: ${ddpay.datasource.user.password}
+
+
+management:
+  server:
+    port: 45678
+  endpoints:
+    web:
+      base-path: /admin
+#      exposure:
+#        include: /*
+
+

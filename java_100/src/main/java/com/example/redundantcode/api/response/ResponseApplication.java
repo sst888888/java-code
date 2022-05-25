@@ -8,11 +8,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  */
 
 @SpringBootApplication
-public class CommonMistakesApplication {
+public class ResponseApplication {
 
     public static void main(String[] args) {
-        Utils.loadPropertySource(CommonMistakesApplication.class, "config.properties");
-        SpringApplication.run(CommonMistakesApplication.class, args);
+        Utils.loadPropertySource(ResponseApplication.class, "config.properties");
+        SpringApplication.run(ResponseApplication.class, args);
     }
 }
 
