@@ -13,7 +13,8 @@ import java.util.concurrent.atomic.AtomicInteger;
 public class ExecutorService {
 
     private static final ThreadPoolExecutor executor = new ThreadPoolExecutor(20, 50, 5, TimeUnit.SECONDS,
-            new ArrayBlockingQueue<>(1000000),
+//            new ArrayBlockingQueue<>(1000000),
+            new SynchronousQueue<>(),
             new ThreadFactory() {
                 private AtomicInteger poolNumber = new AtomicInteger(1);
 
