@@ -20,7 +20,7 @@ public class FutureDemo {
             Long start = System.currentTimeMillis();
             while (true) {
                 Long current = System.currentTimeMillis();
-                if ((current - start) > 100000) {
+                if ((current - start) > 10000) {
                     return 1;
                 }
             }
