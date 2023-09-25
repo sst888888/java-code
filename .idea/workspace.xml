@@ -4,22 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30e47135-48ea-470a-ba66-383e654da240" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_strategy/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_strategy/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_strategy/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_strategy/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/JavaStrategyApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/cancel/AbnormalImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/cancel/CancelOrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/cancel/CancelOrderServiceStrategyFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/cancel/PayTimeoutImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/controller/StrategyController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/enums/CancelEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_strategy/src/test/java/com/example/JavaStrategyApplicationTests.java" afterDir="false" />
+    <list default="true" id="30e47135-48ea-470a-ba66-383e654da240" name="Changes" comment="ignore">
+      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/enums/ReleaseEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/release/ReleaseAheadHandlerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/release/ReleaseAheadValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/release/ReleaseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/release/ReleaseHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/release/ReleaseHandlerFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/release/ReleaseHandlerImplAbstract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/release/ReleaseNormalHandlerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/release/ReleaseNormalValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/release/ReleaseValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/release/ReleaseValidatorAbstract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/controller/StrategyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/controller/StrategyController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,8 +27,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -59,7 +57,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true"
   }
 }]]></component>
   <component name="RunManager">
@@ -104,9 +103,27 @@
       <option name="presentableId" value="Default" />
       <updated>1695565794566</updated>
     </task>
+    <task id="LOCAL-00001" summary="strategy cancel">
+      <created>1695566956238</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1695566956238</updated>
+    </task>
+    <task id="LOCAL-00002" summary="ignore">
+      <created>1695566985613</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1695566985613</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="strategy cancel" />
+    <MESSAGE value="ignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="ignore" />
   </component>
 </project>
