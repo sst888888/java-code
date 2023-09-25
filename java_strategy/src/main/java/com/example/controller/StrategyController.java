@@ -5,6 +5,8 @@ import com.example.cancel.CancelOrderServiceStrategyFactory;
 import com.example.release.ReleaseDTO;
 import com.example.release.ReleaseHandler;
 import com.example.release.ReleaseHandlerFactory;
+import com.example.risk.ReqVo;
+import com.example.risk.StrategyHandler;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -31,6 +33,14 @@ public class StrategyController {
         ReleaseDTO releaseDTO = new ReleaseDTO();
         releaseDTO.setCategory(100); // 该值不影响已产生的releaseHandler
         releaseHandler.handle(releaseDTO);
+        return "ok";
+    }
+
+    @RequestMapping(value = "/test/risk/{category}", method = RequestMethod.GET)
+    public String risk(@PathVariable("category") String category) {
+        ReqVo reqVo = new ReqVo();
+        reqVo.setCategory(category);
+        StrategyHandler.exe(reqVo);
         return "ok";
     }
 
