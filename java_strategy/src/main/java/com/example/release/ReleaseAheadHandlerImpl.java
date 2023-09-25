@@ -32,4 +32,9 @@ public class ReleaseAheadHandlerImpl extends ReleaseHandlerImplAbstract{
         log.info("ReleaseAheadHandlerImpl doHandle. category is [{}]-[{}]", releaseDTO.getCategory(), super.category);
         return false;
     }
+
+    @Override
+    public boolean handle2(ReleaseDTO releaseDTO) {
+        return false;
+    }
 }

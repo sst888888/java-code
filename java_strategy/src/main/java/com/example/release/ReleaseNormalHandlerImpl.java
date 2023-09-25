@@ -31,4 +31,9 @@ public class ReleaseNormalHandlerImpl extends ReleaseHandlerImplAbstract{
         log.info("ReleaseNormalHandlerImpl doHandle. category is [{}]-[{}]", releaseDTO.getCategory(), super.category);
         return false;
     }
+
+    @Override
+    public boolean handle2(ReleaseDTO releaseDTO) {
+        return false;
+    }
 }

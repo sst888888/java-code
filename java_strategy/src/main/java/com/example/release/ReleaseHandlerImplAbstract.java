@@ -22,6 +22,7 @@ public abstract class ReleaseHandlerImplAbstract implements ReleaseHandler{
     }
 
 
+    // 该方法可以做统一处理 子类再做具体实现
     @Override
     public boolean handle(ReleaseDTO releaseDTO) {
 
