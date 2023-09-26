@@ -4,11 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30e47135-48ea-470a-ba66-383e654da240" name="Changes" comment="design ob ex1">
-      <change afterPath="$PROJECT_DIR$/java_23/src/main/java/com/example/ob/ex2/Observer3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_23/src/main/java/com/example/ob/ex2/Subject43D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_23/src/main/java/com/example/ob/ex2/Subject4SSQ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_23/src/main/java/com/example/ob/ex2/Test.java" afterDir="false" />
+    <list default="true" id="30e47135-48ea-470a-ba66-383e654da240" name="Changes" comment="design ob ex2">
+      <change afterPath="$PROJECT_DIR$/java_23/src/main/java/com/example/cd/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_23/src/main/java/com/example/cd/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_23/src/main/java/com/example/cd/ComputerOffCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_23/src/main/java/com/example/cd/ComputerOnCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_23/src/main/java/com/example/cd/ControlPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_23/src/main/java/com/example/cd/Door.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_23/src/main/java/com/example/cd/DoorCloseCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_23/src/main/java/com/example/cd/DoorOpenCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_23/src/main/java/com/example/cd/Light.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_23/src/main/java/com/example/cd/LightOffCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_23/src/main/java/com/example/cd/LightOnCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_23/src/main/java/com/example/cd/NoCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_23/src/main/java/com/example/cd/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_23/src/main/java/com/example/fa/RouJiaMoYLFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,10 +65,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.cd" />
       <recent name="com.example.ob.ex1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.example.ob.ex2.Test">
+  <component name="RunManager" selected="Application.com.example.cd.Test">
     <configuration name="Java23Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.Java23Application" />
       <module name="java_23" />
@@ -98,6 +109,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.example.cd.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.cd.Test" />
+      <module name="java_23" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.cd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="com.example.ob.ex2.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.ob.ex2.Test" />
       <module name="java_23" />
@@ -126,6 +150,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.example.cd.Test" />
         <item itemvalue="Application.com.example.ob.ex2.Test" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.Java23Application" />
@@ -198,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695708610708</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="design ob ex2">
+      <created>1695710078867</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1695710078867</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -209,6 +241,7 @@
     <MESSAGE value="strategy risk" />
     <MESSAGE value="design" />
     <MESSAGE value="design ob ex1" />
-    <option name="LAST_COMMIT_MESSAGE" value="design ob ex1" />
+    <MESSAGE value="design ob ex2" />
+    <option name="LAST_COMMIT_MESSAGE" value="design ob ex2" />
   </component>
 </project>
