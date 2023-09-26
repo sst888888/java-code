@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30e47135-48ea-470a-ba66-383e654da240" name="Changes" comment="strategy release">
-      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/risk/ContextAware.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/risk/EventType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/risk/EventTypeConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/risk/ReqVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/risk/SinglePayStrategyImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/risk/Strategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/risk/StrategyHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/risk/TotalAmountStrategyImpl.java" afterDir="false" />
+    <list default="true" id="30e47135-48ea-470a-ba66-383e654da240" name="Changes" comment="strategy risk">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -127,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695624506312</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="strategy risk">
+      <created>1695628622304</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1695628622304</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -135,6 +134,7 @@
     <MESSAGE value="strategy cancel" />
     <MESSAGE value="ignore" />
     <MESSAGE value="strategy release" />
-    <option name="LAST_COMMIT_MESSAGE" value="strategy release" />
+    <MESSAGE value="strategy risk" />
+    <option name="LAST_COMMIT_MESSAGE" value="strategy risk" />
   </component>
 </project>
