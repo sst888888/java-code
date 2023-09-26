@@ -1,9 +1,5 @@
 package com.example.ob.ex1;
 
-/**
- * @author: cp
- * @date: 2023-09-26 13:57
- */
 public class Test {
 
     public static void main(String[] args) {

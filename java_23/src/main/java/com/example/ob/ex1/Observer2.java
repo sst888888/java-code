@@ -2,10 +2,7 @@ package com.example.ob.ex1;
 
 import lombok.extern.slf4j.Slf4j;
 
-/**
- * @author: cp
- * @date: 2023-09-26 13:51
- */
+
 @Slf4j
 public class Observer2 implements Observer{
 
