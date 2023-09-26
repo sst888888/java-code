@@ -4,17 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30e47135-48ea-470a-ba66-383e654da240" name="Changes" comment="design cd">
-      <change afterPath="$PROJECT_DIR$/java_23/src/main/java/com/example/decorator/ArmEquip.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_23/src/main/java/com/example/decorator/IEquip.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_23/src/main/java/com/example/decorator/IEquipDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_23/src/main/java/com/example/decorator/RingEquip.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_23/src/main/java/com/example/decorator/ShoeEquip.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_23/src/main/java/com/example/decorator/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_23/src/main/java/com/example/decorator/WristEquip.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_23/src/main/java/com/example/decorator/impl/BlueGemDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_23/src/main/java/com/example/decorator/impl/RedGemDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_23/src/main/java/com/example/decorator/impl/YellowGemDecorator.java" afterDir="false" />
+    <list default="true" id="30e47135-48ea-470a-ba66-383e654da240" name="Changes" comment="design decorator">
+      <change afterPath="$PROJECT_DIR$/java_23/src/main/java/com/example/state/ex1/AbstractState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_23/src/main/java/com/example/state/ex1/HighState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_23/src/main/java/com/example/state/ex1/LowState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_23/src/main/java/com/example/state/ex1/MiddleState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_23/src/main/java/com/example/state/ex1/ScoreContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_23/src/main/java/com/example/state/ex1/ScoreStateTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,13 +62,13 @@
       <recent name="com.example.ob.ex1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.example.decorator.Test">
-    <configuration name="Java23Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.Java23Application" />
+  <component name="RunManager" selected="Application.ScoreStateTest">
+    <configuration name="ScoreStateTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.state.ex1.ScoreStateTest" />
       <module name="java_23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.*" />
+          <option name="PATTERN" value="com.example.state.ex1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ScoreStateTest" />
         <item itemvalue="Application.com.example.decorator.Test" />
         <item itemvalue="Application.com.example.cd.Test" />
         <item itemvalue="Application.com.example.ob.ex2.Test" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Java23Application" />
       </list>
     </recent_temporary>
   </component>
@@ -234,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695722028635</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="design decorator">
+      <created>1695724952086</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1695724952086</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -247,6 +250,7 @@
     <MESSAGE value="design ob ex1" />
     <MESSAGE value="design ob ex2" />
     <MESSAGE value="design cd" />
-    <option name="LAST_COMMIT_MESSAGE" value="design cd" />
+    <MESSAGE value="design decorator" />
+    <option name="LAST_COMMIT_MESSAGE" value="design decorator" />
   </component>
 </project>
