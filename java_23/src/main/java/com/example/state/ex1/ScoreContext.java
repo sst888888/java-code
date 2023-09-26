@@ -1,6 +1,5 @@
 package com.example.state.ex1;
 
-import com.example.state.ex1.AbstractState;
 
 // @link https://www.xinbaoku.com/archive/ErcLaDsq.html
 public class ScoreContext {

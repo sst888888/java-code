@@ -1,8 +1,6 @@
 package com.example.state.ex1;
 
 
-import com.example.state.ex1.AbstractState;
-
 public class HighState extends AbstractState {
     public HighState(AbstractState state) {
         hj = state.hj;

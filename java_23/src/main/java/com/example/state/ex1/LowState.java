@@ -1,8 +1,6 @@
 package com.example.state.ex1;
 
 
-import com.example.state.ex1.AbstractState;
-
 public class LowState extends AbstractState {
     public LowState(ScoreContext h) {
         hj = h;
