@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30e47135-48ea-470a-ba66-383e654da240" name="Changes" comment="design state ex1">
-      <change afterPath="$PROJECT_DIR$/java_23/src/main/java/com/example/state/ex2/Blocked.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_23/src/main/java/com/example/state/ex2/Dead.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_23/src/main/java/com/example/state/ex2/New.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_23/src/main/java/com/example/state/ex2/Runnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_23/src/main/java/com/example/state/ex2/Running.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_23/src/main/java/com/example/state/ex2/ScoreStateTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_23/src/main/java/com/example/state/ex2/ThreadContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_23/src/main/java/com/example/state/ex2/ThreadState.java" afterDir="false" />
+    <list default="true" id="30e47135-48ea-470a-ba66-383e654da240" name="Changes" comment="design state ex2">
+      <change afterPath="$PROJECT_DIR$/java_23/src/main/java/com/example/proxy/Proxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_23/src/main/java/com/example/proxy/ProxyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_23/src/main/java/com/example/proxy/RealSubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_23/src/main/java/com/example/proxy/Subject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,13 +60,13 @@
       <recent name="com.example.ob.ex1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.example.state.ex2.ScoreStateTest">
-    <configuration name="ScoreStateTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.state.ex1.ScoreStateTest" />
+  <component name="RunManager" selected="Application.com.example.proxy.ex1.ProxyTest">
+    <configuration name="ProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.proxy.ProxyTest" />
       <module name="java_23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.state.ex1.*" />
+          <option name="PATTERN" value="com.example.proxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.example.cd.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.cd.Test" />
+    <configuration name="ScoreStateTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.state.ex1.ScoreStateTest" />
       <module name="java_23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.cd.*" />
+          <option name="PATTERN" value="com.example.state.ex1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.example.ob.ex2.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.ob.ex2.Test" />
+    <configuration name="com.example.proxy.ex1.ProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.proxy.ex1.ProxyTest" />
       <module name="java_23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.ob.ex2.*" />
+          <option name="PATTERN" value="com.example.proxy.ex1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.example.proxy.ex1.ProxyTest" />
+        <item itemvalue="Application.ProxyTest" />
         <item itemvalue="Application.com.example.state.ex2.ScoreStateTest" />
         <item itemvalue="Application.ScoreStateTest" />
         <item itemvalue="Application.com.example.decorator.Test" />
-        <item itemvalue="Application.com.example.cd.Test" />
-        <item itemvalue="Application.com.example.ob.ex2.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -253,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695738707739</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="design state ex2">
+      <created>1695740434300</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1695740434300</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -268,6 +271,7 @@
     <MESSAGE value="design cd" />
     <MESSAGE value="design decorator" />
     <MESSAGE value="design state ex1" />
-    <option name="LAST_COMMIT_MESSAGE" value="design state ex1" />
+    <MESSAGE value="design state ex2" />
+    <option name="LAST_COMMIT_MESSAGE" value="design state ex2" />
   </component>
 </project>
