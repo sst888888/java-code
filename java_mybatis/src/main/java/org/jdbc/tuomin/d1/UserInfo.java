@@ -1,7 +1,5 @@
 package org.jdbc.tuomin.d1;
 
-import com.example.tuomin.Sensitive;
-import com.example.tuomin.SensitiveTypeEnum;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
@@ -35,7 +33,6 @@ public class UserInfo implements Serializable {
      * 手机号
      */
     @JsonSensitive(strategy = DesensitizedStrategy.PHONE)
-    @Sensitive(type = SensitiveTypeEnum.PHONE_NUM)
     private String phone;
 
     /**
