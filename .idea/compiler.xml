@@ -10,6 +10,7 @@
         <module name="java_100" />
         <module name="java_strategy" />
         <module name="java_algorithm" />
+        <module name="java_mybatis" />
         <module name="java_performence" />
         <module name="java_base" />
         <module name="java_23" />
@@ -25,6 +26,7 @@
       <module name="java_23" options="-parameters" />
       <module name="java_algorithm" options="-parameters" />
       <module name="java_base" options="-parameters" />
+      <module name="java_mybatis" options="-parameters" />
       <module name="java_normal" options="-parameters" />
       <module name="java_performence" options="-parameters" />
       <module name="java_strategy" options="-parameters" />

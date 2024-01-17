@@ -4,12 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30e47135-48ea-470a-ba66-383e654da240" name="Changes" comment="design state ex2">
-      <change afterPath="$PROJECT_DIR$/java_23/src/main/java/com/example/proxy/Proxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_23/src/main/java/com/example/proxy/ProxyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_23/src/main/java/com/example/proxy/RealSubject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_23/src/main/java/com/example/proxy/Subject.java" afterDir="false" />
+    <list default="true" id="30e47135-48ea-470a-ba66-383e654da240" name="Changes" comment="mybatis拦截器">
+      <change afterPath="$PROJECT_DIR$/java_23/src/main/java/com/example/proxy/ex2/Specialty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_mybatis/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_mybatis/src/main/java/org/jdbc/tuomin/d1/Desensitized.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_mybatis/src/main/java/org/jdbc/tuomin/d1/DesensitizedController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_mybatis/src/main/java/org/jdbc/tuomin/d1/DesensitizedStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_mybatis/src/main/java/org/jdbc/tuomin/d1/JacksonDataDesensitized.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_mybatis/src/main/java/org/jdbc/tuomin/d1/JsonSensitive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_mybatis/src/main/java/org/jdbc/tuomin/d1/UserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/demo/Desensitized.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/demo/DesensitizedController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/demo/DesensitizedStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/demo/JacksonDataDesensitized.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/demo/JsonSensitive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/demo/UserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/tuomin/DemoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/tuomin/DemoInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/tuomin/DesensitizedUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/tuomin/Sensitive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/tuomin/SensitiveSerialize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/tuomin/SensitiveTypeEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-analysis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-analysis/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_100/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java_100/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_23/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java_23/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_algorithm/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java_algorithm/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_algorithm/src/main/java/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_algorithm/src/main/java/Sort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_algorithm/target/classes/ListRemove.class" beforeDir="false" afterPath="$PROJECT_DIR$/java_algorithm/target/classes/ListRemove.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java_base/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_normal/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java_normal/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_performence/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java_performence/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmall/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mmall/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,17 +81,41 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true"
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "/Users/nuolan/Documents/java-code2023/java_mybatis/src/main/java/org/jdbc/tuomin/d1",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/java_mybatis/src/main/java/org/jdbc/tuomin/d1" />
+      <recent name="$PROJECT_DIR$/java_strategy/src/main/java/com/example" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="lock" />
       <recent name="com.example.decorator" />
       <recent name="com.example.cd" />
       <recent name="com.example.ob.ex1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.example.proxy.ex1.ProxyTest">
+  <component name="RunManager" selected="Application.JavaStrategyApplication">
+    <configuration name="JavaStrategyApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.JavaStrategyApplication" />
+      <module name="java_strategy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.proxy.ProxyTest" />
       <module name="java_23" />
@@ -74,28 +129,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScoreStateTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.state.ex1.ScoreStateTest" />
-      <module name="java_23" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.state.ex1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.example.decorator.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.decorator.Test" />
-      <module name="java_23" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.decorator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="Sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sort" />
+      <module name="java_algorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -141,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JavaStrategyApplication" />
+        <item itemvalue="Application.Sort" />
         <item itemvalue="Application.com.example.proxy.ex1.ProxyTest" />
         <item itemvalue="Application.ProxyTest" />
         <item itemvalue="Application.com.example.state.ex2.ScoreStateTest" />
-        <item itemvalue="Application.ScoreStateTest" />
-        <item itemvalue="Application.com.example.decorator.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -256,7 +292,56 @@
       <option name="project" value="LOCAL" />
       <updated>1695740434300</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="design proxy ex1">
+      <created>1695796734941</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1695796734941</updated>
+    </task>
+    <task id="LOCAL-00016" summary="design proxy ex1">
+      <created>1704783126655</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1704783126655</updated>
+    </task>
+    <task id="LOCAL-00017" summary="lock">
+      <created>1704783141038</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1704783141038</updated>
+    </task>
+    <task id="LOCAL-00018" summary="lock">
+      <created>1704785075784</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1704785075784</updated>
+    </task>
+    <task id="LOCAL-00019" summary="开发模式feign配置">
+      <created>1705484298564</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1705484298564</updated>
+    </task>
+    <task id="LOCAL-00020" summary="mybatis拦截器">
+      <created>1705484388961</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1705484388961</updated>
+    </task>
+    <task id="LOCAL-00021" summary="mybatis拦截器">
+      <created>1705484398357</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1705484398357</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -272,6 +357,10 @@
     <MESSAGE value="design decorator" />
     <MESSAGE value="design state ex1" />
     <MESSAGE value="design state ex2" />
-    <option name="LAST_COMMIT_MESSAGE" value="design state ex2" />
+    <MESSAGE value="design proxy ex1" />
+    <MESSAGE value="lock" />
+    <MESSAGE value="开发模式feign配置" />
+    <MESSAGE value="mybatis拦截器" />
+    <option name="LAST_COMMIT_MESSAGE" value="mybatis拦截器" />
   </component>
 </project>
