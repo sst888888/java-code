@@ -10,6 +10,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>java_performence</artifactId>
+    <dependencies>
+        <dependency>
+            <groupId>com.tosan.client.http</groupId>
+            <artifactId>tosan-httpclient-spring-boot-starter</artifactId>
+            <version>3.0.3</version>
+        </dependency>
+    </dependencies>
 
 
 </project>

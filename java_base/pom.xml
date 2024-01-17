@@ -28,6 +28,17 @@
             <artifactId>jmh-generator-annprocess</artifactId>
             <version>1.19</version>
         </dependency>
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+            <version>5.7.20</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.tosan.client.http</groupId>
+            <artifactId>tosan-httpclient-spring-boot-starter</artifactId>
+            <version>3.0.3</version>
+        </dependency>
     </dependencies>
 
 </project>
