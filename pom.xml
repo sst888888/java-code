@@ -11,6 +11,7 @@
         <module>java_base</module>
         <module>mmall</module>
         <module>java_100</module>
+        <module>java_mybatis</module>
     </modules>
 
     <parent>
@@ -109,6 +110,11 @@
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
             <version>3.12.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.tosan.client.http</groupId>
+            <artifactId>tosan-httpclient-spring-boot-starter</artifactId>
+            <version>3.0.3</version>
         </dependency>
 
     </dependencies>
