@@ -13,6 +13,7 @@
         <module>java_100</module>
         <module>java_mybatis</module>
         <module>java_zk</module>
+        <module>java_mybatis_plus</module>
     </modules>
 
     <parent>

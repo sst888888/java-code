@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="ge.mapper.DdpayDeptMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="ge.bean.DdpayDept">
+        <id column="id" property="id" />
+        <result column="tenant_id" property="tenantId" />
+        <result column="parent_id" property="parentId" />
+        <result column="ancestors" property="ancestors" />
+        <result column="dept_category" property="deptCategory" />
+        <result column="dept_name" property="deptName" />
+        <result column="full_name" property="fullName" />
+        <result column="sort" property="sort" />
+        <result column="remark" property="remark" />
+        <result column="is_deleted" property="isDeleted" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, tenant_id, parent_id, ancestors, dept_category, dept_name, full_name, sort, remark, is_deleted
+    </sql>
+
+</mapper>

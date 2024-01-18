@@ -4,47 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30e47135-48ea-470a-ba66-383e654da240" name="Changes" comment="guana map">
-      <change afterPath="$PROJECT_DIR$/java_23/src/main/java/com/example/proxy/ex2/Specialty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_mybatis/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_zk/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_zk/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_zk/src/main/java/org/zk/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_zk/src/main/java/org/zk/config/ZookeeperConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_zk/src/main/java/org/zk/lock/ZkLock.java" afterDir="false" />
+    <list default="true" id="30e47135-48ea-470a-ba66-383e654da240" name="Changes" comment="modify">
+      <change afterPath="$PROJECT_DIR$/java_mybatis_plus/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_mybatis_plus/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_mybatis_plus/src/main/java/ge/bean/DdpayDept.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_mybatis_plus/src/main/java/ge/controller/DdpayDeptController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_mybatis_plus/src/main/java/ge/mapper/DdpayDeptMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_mybatis_plus/src/main/java/ge/mapper/DdpayDeptMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_mybatis_plus/src/main/java/ge/service/DdpayDeptService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_mybatis_plus/src/main/java/ge/service/impl/DdpayDeptServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_mybatis_plus/src/main/java/org/plus/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_mybatis_plus/src/main/java/org/plus/TestGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_algorithm/src/main/java/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_algorithm/src/main/java/Sort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_algorithm/target/classes/ListRemove.class" beforeDir="false" afterPath="$PROJECT_DIR$/java_algorithm/target/classes/ListRemove.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_base/target/classes/string/Jtest.class" beforeDir="false" afterPath="$PROJECT_DIR$/java_base/target/classes/string/Jtest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_mybatis/src/main/java/org/jdbc/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_mybatis/src/main/java/org/zk/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_mybatis/src/main/java/org/jdbc/demo01/AllowUpdateTables.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_mybatis/src/main/java/org/zk/demo01/AllowUpdateTables.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_mybatis/src/main/java/org/jdbc/demo01/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_mybatis/src/main/java/org/zk/demo01/BaseEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_mybatis/src/main/java/org/jdbc/demo01/MybatisAutoGenerateIdInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_mybatis/src/main/java/org/zk/demo01/MybatisAutoGenerateIdInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_mybatis/src/main/java/org/jdbc/demo01/MybatisInterceptorConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_mybatis/src/main/java/org/zk/demo01/MybatisInterceptorConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_mybatis/src/main/java/org/jdbc/demo01/MybatisOptimisticLockInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_mybatis/src/main/java/org/zk/demo01/MybatisOptimisticLockInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_mybatis/src/main/java/org/jdbc/demo01/MybatisSafeUpdateInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_mybatis/src/main/java/org/zk/demo01/MybatisSafeUpdateInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_mybatis/src/main/java/org/jdbc/demo01/MybatisSqlInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_mybatis/src/main/java/org/zk/demo01/MybatisSqlInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_mybatis/src/main/java/org/jdbc/demo01/MybatisTestInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_mybatis/src/main/java/org/zk/demo01/MybatisTestInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_mybatis/src/main/java/org/jdbc/demo01/OptimisticLockVersion.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_mybatis/src/main/java/org/zk/demo01/OptimisticLockVersion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_mybatis/src/main/java/org/jdbc/demo02/Confidential.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_mybatis/src/main/java/org/zk/demo02/Confidential.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_mybatis/src/main/java/org/jdbc/demo02/ExecutorPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_mybatis/src/main/java/org/zk/demo02/ExecutorPlugin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_mybatis/src/main/java/org/jdbc/demo02/ResultSetPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_mybatis/src/main/java/org/zk/demo02/ResultSetPlugin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_mybatis/src/main/java/org/jdbc/demo02/StatementPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_mybatis/src/main/java/org/zk/demo02/StatementPlugin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_mybatis/src/main/java/org/jdbc/demo02/TenantPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_mybatis/src/main/java/org/zk/demo02/TenantPlugin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_mybatis/src/main/java/org/jdbc/tuomin/d1/Desensitized.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_mybatis/src/main/java/org/zk/tuomin/d1/Desensitized.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_mybatis/src/main/java/org/jdbc/tuomin/d1/DesensitizedController.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_mybatis/src/main/java/org/zk/tuomin/d1/DesensitizedController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_mybatis/src/main/java/org/jdbc/tuomin/d1/DesensitizedStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_mybatis/src/main/java/org/zk/tuomin/d1/DesensitizedStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_mybatis/src/main/java/org/jdbc/tuomin/d1/JacksonDataDesensitized.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_mybatis/src/main/java/org/zk/tuomin/d1/JacksonDataDesensitized.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_mybatis/src/main/java/org/jdbc/tuomin/d1/JsonSensitive.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_mybatis/src/main/java/org/zk/tuomin/d1/JsonSensitive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_mybatis/src/main/java/org/jdbc/tuomin/d1/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_mybatis/src/main/java/org/zk/tuomin/d1/UserInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_mybatis/src/main/java/org/jdbc/tuomin/d2/DemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_mybatis/src/main/java/org/zk/tuomin/d2/DemoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_mybatis/src/main/java/org/jdbc/tuomin/d2/DemoInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_mybatis/src/main/java/org/zk/tuomin/d2/DemoInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_mybatis/src/main/java/org/jdbc/tuomin/d2/DesensitizedUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_mybatis/src/main/java/org/zk/tuomin/d2/DesensitizedUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_mybatis/src/main/java/org/jdbc/tuomin/d2/Sensitive.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_mybatis/src/main/java/org/zk/tuomin/d2/Sensitive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_mybatis/src/main/java/org/jdbc/tuomin/d2/SensitiveSerialize.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_mybatis/src/main/java/org/zk/tuomin/d2/SensitiveSerialize.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_mybatis/src/main/java/org/jdbc/tuomin/d2/SensitiveTypeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_mybatis/src/main/java/org/zk/tuomin/d2/SensitiveTypeEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_mybatis/src/main/java/org/jdbc/tuomin/d1/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_mybatis/src/main/java/org/jdbc/tuomin/d1/UserInfo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -108,13 +85,13 @@
       <recent name="com.example.ob.ex1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.demoMap">
-    <configuration name="JavaStrategyApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.JavaStrategyApplication" />
-      <module name="java_strategy" />
+  <component name="RunManager" selected="JUnit.TestGenerator.testGenerator">
+    <configuration name="JavaMybatisPlusApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mybatis.plus.JavaMybatisPlusApplication" />
+      <module name="java_mybatis_plus" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.*" />
+          <option name="PATTERN" value="com.mybatis.plus.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.proxy.ProxyTest" />
-      <module name="java_23" />
+    <configuration name="JavaStrategyApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.JavaStrategyApplication" />
+      <module name="java_strategy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.proxy.*" />
+          <option name="PATTERN" value="com.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,19 +119,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.example.proxy.ex1.ProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.proxy.ex1.ProxyTest" />
-      <module name="java_23" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.proxy.ex1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="demoMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="guava.demoMap" />
       <module name="java_base" />
@@ -164,6 +128,22 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestGenerator.testGenerator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java_mybatis_plus" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.plus.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.plus" />
+      <option name="MAIN_CLASS_NAME" value="org.plus.TestGenerator" />
+      <option name="METHOD_NAME" value="testGenerator" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -183,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestGenerator.testGenerator" />
+        <item itemvalue="Application.JavaMybatisPlusApplication" />
         <item itemvalue="Application.demoMap" />
         <item itemvalue="Application.JavaStrategyApplication" />
         <item itemvalue="Application.Sort" />
-        <item itemvalue="Application.com.example.proxy.ex1.ProxyTest" />
-        <item itemvalue="Application.ProxyTest" />
       </list>
     </recent_temporary>
   </component>
@@ -382,7 +362,21 @@
       <option name="project" value="LOCAL" />
       <updated>1705555486675</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="zk lock">
+      <created>1705572345066</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1705572345066</updated>
+    </task>
+    <task id="LOCAL-00028" summary="modify">
+      <created>1705572710415</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1705572710415</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -405,6 +399,8 @@
     <MESSAGE value="maven依赖" />
     <MESSAGE value="脱敏" />
     <MESSAGE value="guana map" />
-    <option name="LAST_COMMIT_MESSAGE" value="guana map" />
+    <MESSAGE value="zk lock" />
+    <MESSAGE value="modify" />
+    <option name="LAST_COMMIT_MESSAGE" value="modify" />
   </component>
 </project>
