@@ -12,6 +12,7 @@
         <module>mmall</module>
         <module>java_100</module>
         <module>java_mybatis</module>
+        <module>java_zk</module>
     </modules>
 
     <parent>
@@ -115,6 +116,12 @@
             <groupId>com.tosan.client.http</groupId>
             <artifactId>tosan-httpclient-spring-boot-starter</artifactId>
             <version>3.0.3</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>30.1.1-jre</version>
         </dependency>
 
     </dependencies>
