@@ -1,4 +1,4 @@
-package org.zk.demo01;
+package org.jdbc.demo01;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;

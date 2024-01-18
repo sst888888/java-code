@@ -1,8 +1,6 @@
 package org.jdbc.tuomin.d1;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
-import com.google.common.collect.ArrayListMultimap;
-import com.google.common.collect.HashBasedTable;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.experimental.Accessors;

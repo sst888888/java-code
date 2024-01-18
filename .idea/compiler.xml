@@ -14,6 +14,7 @@
         <module name="java_performence" />
         <module name="java_base" />
         <module name="java_23" />
+        <module name="java_zk" />
         <module name="api-analysis" />
         <module name="java_normal" />
       </profile>
@@ -30,6 +31,7 @@
       <module name="java_normal" options="-parameters" />
       <module name="java_performence" options="-parameters" />
       <module name="java_strategy" options="-parameters" />
+      <module name="java_zk" options="-parameters" />
       <module name="mmall" options="-parameters" />
     </option>
   </component>
