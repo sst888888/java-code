@@ -4,15 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30e47135-48ea-470a-ba66-383e654da240" name="Changes" comment="generator">
-      <change afterPath="$PROJECT_DIR$/java_base/src/main/java/excel/ExcelDataVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_base/src/main/java/excel/ExcelReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_base/src/main/java/excel/ExcelWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_base/src/main/java/excel/MainTest.java" afterDir="false" />
+    <list default="true" id="30e47135-48ea-470a-ba66-383e654da240" name="Changes" comment="excel">
+      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/flow/BeanService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/flow/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/flow/FlowEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/flow/FlowNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/flow/FlowNodeInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/flow/NodeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/flow/NodeExecuteTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/flow/NodeOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/flow/NodeTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/resources/classpath/applicationContext.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java_base/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/JavaStrategyApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/JavaStrategyApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +31,7 @@
         <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
@@ -49,21 +56,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/nuolan/Documents/java-code2023/java_mybatis/src/main/java/org/jdbc/tuomin/d2&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "/Users/nuolan/Documents/java-code2023/java_strategy/src/main/resources/applicationContext",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/java_strategy/src/main/resources/applicationContext" />
       <recent name="$PROJECT_DIR$/java_mybatis/src/main/java/org/jdbc/tuomin/d2" />
       <recent name="$PROJECT_DIR$/java_mybatis/src/main/java/org/jdbc/tuomin/d1" />
       <recent name="$PROJECT_DIR$/java_strategy/src/main/java/com/example" />
@@ -76,7 +84,7 @@
       <recent name="com.example.ob.ex1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainTest">
+  <component name="RunManager" selected="Application.JavaStrategyApplication">
     <configuration name="JavaMybatisPlusApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mybatis.plus.JavaMybatisPlusApplication" />
       <module name="java_mybatis_plus" />
@@ -116,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="demoMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="guava.demoMap" />
-      <module name="java_base" />
+    <configuration name="NodeController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.flow.NodeController" />
+      <module name="java_strategy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="guava.*" />
+          <option name="PATTERN" value="com.example.flow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainTest" />
         <item itemvalue="Application.JavaStrategyApplication" />
+        <item itemvalue="Application.NodeController" />
+        <item itemvalue="Application.MainTest" />
         <item itemvalue="JUnit.TestGenerator.testGenerator" />
         <item itemvalue="Application.JavaMybatisPlusApplication" />
-        <item itemvalue="Application.demoMap" />
       </list>
     </recent_temporary>
   </component>
@@ -380,8 +388,33 @@
       <option name="project" value="LOCAL" />
       <updated>1705580934156</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="excel">
+      <created>1706419555886</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1706419555886</updated>
+    </task>
+    <task id="LOCAL-00031" summary="excel">
+      <created>1706419581233</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1706419581233</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -406,6 +439,18 @@
     <MESSAGE value="zk lock" />
     <MESSAGE value="modify" />
     <MESSAGE value="generator" />
-    <option name="LAST_COMMIT_MESSAGE" value="generator" />
+    <MESSAGE value="excel" />
+    <option name="LAST_COMMIT_MESSAGE" value="excel" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java_strategy/src/main/java/com/example/flow/FlowEngine.java</url>
+          <line>101</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
