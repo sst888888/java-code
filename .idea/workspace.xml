@@ -4,18 +4,67 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30e47135-48ea-470a-ba66-383e654da240" name="Changes" comment="flow">
-      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/cmd/TestValidatePlugin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/cmd/ValidateController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/cmd/ValidateFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/cmd/ValidatePlugin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/cmd/ValidatePluginExecute.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/cmd/ValidatePluginOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/cmd/ValidatePluginTwo.java" afterDir="false" />
+    <list default="true" id="30e47135-48ea-470a-ba66-383e654da240" name="Changes" comment="多线程校验">
+      <change afterPath="$PROJECT_DIR$/spring-boot-kafka/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-kafka/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-kafka/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-kafka/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-kafka/src/main/java/com/bootkafka/springbootkafkademo/SpringBootKafkaDemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-kafka/src/main/java/com/bootkafka/springbootkafkademo/configuration/KafkaConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-kafka/src/main/java/com/bootkafka/springbootkafkademo/configuration/TransactionConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-kafka/src/main/java/com/bootkafka/springbootkafkademo/controller/KafkaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-kafka/src/main/java/com/bootkafka/springbootkafkademo/controller/LocalDateConverter2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-kafka/src/main/java/com/bootkafka/springbootkafkademo/controller/LocalDateTimeConverter2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-kafka/src/main/java/com/bootkafka/springbootkafkademo/controller/Sql2Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-kafka/src/main/java/com/bootkafka/springbootkafkademo/controller/Sql3Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-kafka/src/main/java/com/bootkafka/springbootkafkademo/controller/SqlController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-kafka/src/main/java/com/bootkafka/springbootkafkademo/controller/origin/ExcelController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-kafka/src/main/java/com/bootkafka/springbootkafkademo/controller/origin/ExeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-kafka/src/main/java/com/bootkafka/springbootkafkademo/controller/origin/ExeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-kafka/src/main/java/com/bootkafka/springbootkafkademo/controller/origin/ToLocalDateTimeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-kafka/src/main/java/com/bootkafka/springbootkafkademo/controller/origin/convert/IpConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-kafka/src/main/java/com/bootkafka/springbootkafkademo/controller/origin/convert/LocalDateConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-kafka/src/main/java/com/bootkafka/springbootkafkademo/controller/origin/convert/LocalDateTimeConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-kafka/src/main/java/com/bootkafka/springbootkafkademo/controller/origin/entity/OrderDeposit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-kafka/src/main/java/com/bootkafka/springbootkafkademo/controller/origin/entity/OrderTransfer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-kafka/src/main/java/com/bootkafka/springbootkafkademo/controller/origin/entity/OrderWithdrawal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-kafka/src/main/java/com/bootkafka/springbootkafkademo/controller/origin/entity/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-kafka/src/main/java/com/bootkafka/springbootkafkademo/controller/origin/entity/PlayerAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-kafka/src/main/java/com/bootkafka/springbootkafkademo/controller/origin/entity/PlayerBankCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-kafka/src/main/java/com/bootkafka/springbootkafkademo/controller/origin/entity/PlayerVirBank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-kafka/src/main/java/com/bootkafka/springbootkafkademo/controller/origin/entity/source/OrderDepositSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-kafka/src/main/java/com/bootkafka/springbootkafkademo/controller/origin/entity/source/OrderTransferSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-kafka/src/main/java/com/bootkafka/springbootkafkademo/controller/origin/entity/source/OrderWithdrawalSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-kafka/src/main/java/com/bootkafka/springbootkafkademo/controller/origin/entity/source/PlayerAccountSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-kafka/src/main/java/com/bootkafka/springbootkafkademo/controller/origin/entity/source/PlayerBankCardSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-kafka/src/main/java/com/bootkafka/springbootkafkademo/controller/origin/entity/source/PlayerSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-kafka/src/main/java/com/bootkafka/springbootkafkademo/controller/origin/entity/source/PlayerVirBankSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-kafka/src/main/java/com/bootkafka/springbootkafkademo/controller/origin/impl/OrderDepositExeImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-kafka/src/main/java/com/bootkafka/springbootkafkademo/controller/origin/impl/OrderTransferExeImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-kafka/src/main/java/com/bootkafka/springbootkafkademo/controller/origin/impl/OrderWithdrawalExeImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-kafka/src/main/java/com/bootkafka/springbootkafkademo/controller/origin/impl/PlayerAccountExeImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-kafka/src/main/java/com/bootkafka/springbootkafkademo/controller/origin/impl/PlayerBankCardExeImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-kafka/src/main/java/com/bootkafka/springbootkafkademo/controller/origin/impl/PlayerExeImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-kafka/src/main/java/com/bootkafka/springbootkafkademo/controller/origin/impl/PlayerVirBankExeImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-kafka/src/main/java/com/bootkafka/springbootkafkademo/service/ConsumerRetryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-kafka/src/main/java/com/bootkafka/springbootkafkademo/service/ConsumerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-kafka/src/main/java/com/bootkafka/springbootkafkademo/service/ProducerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-kafka/src/main/java/com/bootkafka/springbootkafkademo/service/ProducerTransService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-kafka/src/main/java/com/bootkafka/springbootkafkademo/util/JdbcUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-kafka/src/main/java/com/bootkafka/springbootkafkademo/util/JdbcUtils4Dddpay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-kafka/src/main/java/com/bootkafka/springbootkafkademo/util/JdbcUtils4GjSaasMaster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-kafka/src/main/java/com/bootkafka/springbootkafkademo/util/JdbcUtils4Saas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-kafka/src/main/java/com/bootkafka/springbootkafkademo/util/JdbcUtils4Saas111.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-kafka/src/main/java/com/bootkafka/springbootkafkademo/util/JdbcUtils4Yn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-kafka/src/main/java/com/bootkafka/springbootkafkademo/util/JdbcUtils4YnDs3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-kafka/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-kafka/src/test/java/com/bootkafka/springbootkafkademo/SpringBootKafkaDemoApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_strategy/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java_strategy/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,19 +102,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "/Users/nuolan/Documents/java-code2023/java_strategy/src/main/resources/applicationContext",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/nuolan/Documents/java-code2023/java_strategy/src/main/resources/applicationContext&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/java_strategy/src/main/resources/applicationContext" />
@@ -81,20 +130,7 @@
       <recent name="com.example.cd" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JavaStrategyApplication">
-    <configuration name="JavaMybatisPlusApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mybatis.plus.JavaMybatisPlusApplication" />
-      <module name="java_mybatis_plus" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mybatis.plus.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SpringBootKafkaDemoApplication">
     <configuration name="JavaStrategyApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.JavaStrategyApplication" />
       <module name="java_strategy" />
@@ -134,6 +170,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringBootKafkaDemoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bootkafka.springbootkafkademo.SpringBootKafkaDemoApplication" />
+      <module name="spring-boot-kafka-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bootkafka.springbootkafkademo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestGenerator.testGenerator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_mybatis_plus" />
       <extension name="coverage">
@@ -165,11 +214,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SpringBootKafkaDemoApplication" />
         <item itemvalue="Application.JavaStrategyApplication" />
         <item itemvalue="Application.NodeController" />
         <item itemvalue="Application.MainTest" />
         <item itemvalue="JUnit.TestGenerator.testGenerator" />
-        <item itemvalue="Application.JavaMybatisPlusApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -406,7 +455,14 @@
       <option name="project" value="LOCAL" />
       <updated>1706687692009</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="多线程校验">
+      <created>1706791546184</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1706791546184</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -445,7 +501,8 @@
     <MESSAGE value="generator" />
     <MESSAGE value="excel" />
     <MESSAGE value="flow" />
-    <option name="LAST_COMMIT_MESSAGE" value="flow" />
+    <MESSAGE value="多线程校验" />
+    <option name="LAST_COMMIT_MESSAGE" value="多线程校验" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
