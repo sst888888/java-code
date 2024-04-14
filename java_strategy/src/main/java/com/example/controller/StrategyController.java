@@ -2,16 +2,18 @@ package com.example.controller;
 
 import com.example.cancel.CancelOrderService;
 import com.example.cancel.CancelOrderServiceStrategyFactory;
+import com.example.entity.UploadFile;
 import com.example.release.ReleaseDTO;
 import com.example.release.ReleaseHandler;
 import com.example.release.ReleaseHandlerFactory;
 import com.example.risk.ReqVo;
 import com.example.risk.StrategyHandler;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+import org.springframework.web.multipart.MultipartFile;
+
+import java.io.IOException;
+import java.io.InputStream;
 
 
 @RestController
@@ -40,6 +42,14 @@ public class StrategyController {
         ReqVo reqVo = new ReqVo();
         reqVo.setCategory(category);
         StrategyHandler.exe(reqVo);
+        return "ok";
+    }
+
+
+    @RequestMapping(value = "/test/file", method = RequestMethod.POST)
+    public String file(@RequestParam("uploadFile") MultipartFile uploadFile) throws IOException {
+        String name = uploadFile.getOriginalFilename();
+        long size = uploadFile.getSize();
         return "ok";
     }
 
