@@ -49,7 +49,7 @@ public class StrategyController {
     @RequestMapping(value = "/test/file", method = RequestMethod.POST)
     public String file(@RequestParam("uploadFile") MultipartFile uploadFile) throws IOException {
         String name = uploadFile.getOriginalFilename();
-        long size = uploadFile.getSize();
+//        uploadFile.getSize()
         return "ok";
     }
 

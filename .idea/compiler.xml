@@ -12,15 +12,20 @@
         <module name="spring-boot-kafka-demo" />
         <module name="mmall" />
         <module name="java_mybatis_plus" />
-        <module name="java_strategy" />
         <module name="java_mybatis" />
         <module name="java_performence" />
         <module name="java_base" />
         <module name="java_23" />
         <module name="api-analysis" />
+        <module name="java_excel" />
         <module name="java_normal" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="java_excel0" target="1.8" />
+      <module name="java_strategy (1)" target="1.8" />
+      <module name="java_strategy (2)" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
@@ -29,11 +34,15 @@
       <module name="java_23" options="-parameters" />
       <module name="java_algorithm" options="-parameters" />
       <module name="java_base" options="-parameters" />
+      <module name="java_excel" options="-parameters" />
+      <module name="java_excel0" options="-parameters" />
       <module name="java_mybatis" options="-parameters" />
       <module name="java_mybatis_plus" options="-parameters" />
       <module name="java_normal" options="-parameters" />
       <module name="java_performence" options="-parameters" />
       <module name="java_strategy" options="-parameters" />
+      <module name="java_strategy (1)" options="-parameters" />
+      <module name="java_strategy (2)" options="-parameters" />
       <module name="java_zk" options="-parameters" />
       <module name="mmall" options="-parameters" />
       <module name="spring-boot-kafka-demo" options="-parameters" />
