@@ -8,6 +8,8 @@ import java.util.Arrays;
 
 /**
  * 深度优先
+ * https://github.com/krahets/hello-algo/blob/main/codes/java/chapter_tree/binary_tree_dfs.java
+ * https://www.hello-algo.com/chapter_tree/binary_tree_traversal/#722
  */
 public class BinaryTreeDfs {
     // 初始化列表 用于存储遍历序列
