@@ -12,6 +12,7 @@
         <module name="spring-boot-kafka-demo" />
         <module name="mmall" />
         <module name="java_mybatis_plus" />
+        <module name="java_strategy" />
         <module name="java_mybatis" />
         <module name="java_performence" />
         <module name="java_base" />

@@ -4,12 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30e47135-48ea-470a-ba66-383e654da240" name="Changes" comment="excel 代码">
-      <change afterPath="$PROJECT_DIR$/java_excel/src/main/java/com/example/entity/ExportRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_excel/src/main/java/com/example/entity/RobotKnowledgeExport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_excel/src/main/java/com/example/entity/RobotKnowledgeExportTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_excel/src/main/java/com/example/listener/RobotKnowledgeAnalysisEventListener.java" afterDir="false" />
+    <list default="true" id="30e47135-48ea-470a-ba66-383e654da240" name="Changes" comment="RSA">
+      <change afterPath="$PROJECT_DIR$/java_algorithm/src/main/java/chapter/tree/BinaryTreeBfs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_algorithm/src/main/java/chapter/tree/BinaryTreeDfs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_algorithm/src/main/java/utils/PrintUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_algorithm/src/main/java/utils/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_algorithm/src/main/java/utils/Trunk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_normal/target/classes/aes/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/java_normal/target/classes/aes/Test.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,28 +62,33 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "/Users/nuolan/Documents/java-code2023",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.24482758",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/nuolan/Documents/java-code2023&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.24482758&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/java_strategy/src/main/resources/applicationContext" />
       <recent name="$PROJECT_DIR$/java_mybatis/src/main/java/org/jdbc/tuomin/d2" />
       <recent name="$PROJECT_DIR$/java_mybatis/src/main/java/org/jdbc/tuomin/d1" />
       <recent name="$PROJECT_DIR$/java_strategy/src/main/java/com/example" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/java_algorithm/src/main/java" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.example.controller" />
@@ -88,13 +98,13 @@
       <recent name="com.example.decorator" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JavaExcelApplication">
-    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.Application" />
-      <module name="java_100" />
+  <component name="RunManager" selected="Application.BinaryTreeDfs">
+    <configuration name="BinaryTreeBfs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter.tree.BinaryTreeBfs" />
+      <module name="java_algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.listener.*" />
+          <option name="PATTERN" value="chapter.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Java23Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.Java23Application" />
-      <module name="java_23" />
+    <configuration name="BinaryTreeDfs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter.tree.BinaryTreeDfs" />
+      <module name="java_algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.listener.*" />
+          <option name="PATTERN" value="chapter.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,15 +151,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringBootKafkaDemoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bootkafka.springbootkafkademo.SpringBootKafkaDemoApplication" />
-      <module name="spring-boot-kafka-demo" />
+    <configuration name="Test.testJM" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java_normal" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bootkafka.springbootkafkademo.*" />
+          <option name="PATTERN" value="rsa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="rsa" />
+      <option name="MAIN_CLASS_NAME" value="rsa.Test" />
+      <option name="METHOD_NAME" value="testJM" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -169,11 +182,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinaryTreeDfs" />
+        <item itemvalue="Application.BinaryTreeBfs" />
+        <item itemvalue="JUnit.Test.testJM" />
         <item itemvalue="Application.JavaExcelApplication" />
         <item itemvalue="Application.JavaStrategyApplication" />
-        <item itemvalue="Application.SpringBootKafkaDemoApplication" />
-        <item itemvalue="Application.Application" />
-        <item itemvalue="Application.Java23Application" />
       </list>
     </recent_temporary>
   </component>
@@ -438,7 +451,28 @@
       <option name="project" value="LOCAL" />
       <updated>1713430607932</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="excel 代码">
+      <created>1713445180874</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1713445180874</updated>
+    </task>
+    <task id="LOCAL-00038" summary="RSA">
+      <created>1715748941762</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1715748941762</updated>
+    </task>
+    <task id="LOCAL-00039" summary="RSA">
+      <created>1715752470994</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1715752470994</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -454,7 +488,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="strategy release" />
     <MESSAGE value="strategy risk" />
     <MESSAGE value="design" />
     <MESSAGE value="design ob ex1" />
@@ -479,7 +512,8 @@
     <MESSAGE value="kafka" />
     <MESSAGE value="upload file" />
     <MESSAGE value="excel 代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="excel 代码" />
+    <MESSAGE value="RSA" />
+    <option name="LAST_COMMIT_MESSAGE" value="RSA" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
