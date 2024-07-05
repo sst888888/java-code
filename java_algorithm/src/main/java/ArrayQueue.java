@@ -1,9 +1,6 @@
 /**
  * @ClassName ArrayQueue
  * @Description 用数组实现的队列 叫 顺序队列
- * @Author Chaiphat
- * @Date 2020/8/31 20:58
- * @Version 1.0
  **/
 public class ArrayQueue {
 
@@ -29,7 +26,10 @@ public class ArrayQueue {
         // tail == n表示队列末尾没有空间了
         if (tail == n) {
             // tail ==n && head==0，表示整个队列都占满了
-            if (head == 0) {return false;}
+            if (head == 0) {
+                return false;
+            }
+
             // 数据搬移
             for (int i = head; i < tail; ++i) {
                 items[i-head] = items[i];
@@ -46,7 +46,7 @@ public class ArrayQueue {
 
     public String dequeue() {
         // 表示队列为空
-        if(head == tail) {
+        if (head == tail) {
             return null;
         }
 

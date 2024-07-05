@@ -4,14 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30e47135-48ea-470a-ba66-383e654da240" name="Changes" comment="es脚本">
-      <change afterPath="$PROJECT_DIR$/java_algorithm/src/main/java/chapter/graph/GraphAdjList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_algorithm/src/main/java/chapter/graph/GraphBfs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_algorithm/src/main/java/chapter/graph/GraphDfs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_algorithm/src/main/java/utils/Vertex.java" afterDir="false" />
+    <list default="true" id="30e47135-48ea-470a-ba66-383e654da240" name="Changes" comment="图遍历">
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_algorithm/src/main/java/ArrayQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_algorithm/src/main/java/ArrayQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_algorithm/src/main/java/ArrayStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_algorithm/src/main/java/ArrayStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_algorithm/src/main/java/CircularQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_algorithm/src/main/java/CircularQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_algorithm/src/main/java/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_algorithm/src/main/java/Sort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_algorithm/target/classes/ArrayQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/java_algorithm/target/classes/ArrayQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_algorithm/target/classes/ArrayStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/java_algorithm/target/classes/ArrayStack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_algorithm/target/classes/CircularQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/java_algorithm/target/classes/CircularQueue.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +98,7 @@
       <recent name="com.example.decorator" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GraphBfs">
+  <component name="RunManager" selected="Application.Sort">
     <configuration name="BinaryTreeBfs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapter.tree.BinaryTreeBfs" />
       <module name="java_algorithm" />
@@ -148,18 +151,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test.testJM" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java_normal" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="rsa.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="rsa" />
-      <option name="MAIN_CLASS_NAME" value="rsa.Test" />
-      <option name="METHOD_NAME" value="testJM" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration name="Sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sort" />
+      <module name="java_algorithm" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -179,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Sort" />
         <item itemvalue="Application.GraphBfs" />
         <item itemvalue="Application.GraphDfs" />
         <item itemvalue="Application.BinaryTreeDfs" />
         <item itemvalue="Application.BinaryTreeBfs" />
-        <item itemvalue="JUnit.Test.testJM" />
       </list>
     </recent_temporary>
   </component>
@@ -490,7 +484,14 @@
       <option name="project" value="LOCAL" />
       <updated>1720017837368</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="图遍历">
+      <created>1720105263068</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1720105263068</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -506,7 +507,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="design ob ex1" />
     <MESSAGE value="design ob ex2" />
     <MESSAGE value="design cd" />
     <MESSAGE value="design decorator" />
@@ -531,7 +531,8 @@
     <MESSAGE value="RSA" />
     <MESSAGE value="二叉树遍历" />
     <MESSAGE value="es脚本" />
-    <option name="LAST_COMMIT_MESSAGE" value="es脚本" />
+    <MESSAGE value="图遍历" />
+    <option name="LAST_COMMIT_MESSAGE" value="图遍历" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

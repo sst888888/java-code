@@ -1,9 +1,6 @@
 /**
  * @ClassName CircularQueue
  * @Description 循环队列会浪费一个数组的存储空间
- * @Author Chaiphat
- * @Date 2020/8/31 21:41
- * @Version 1.0
  **/
 
 public class CircularQueue {
@@ -23,7 +20,9 @@ public class CircularQueue {
     // 入队
     public boolean enqueue(String item) {
         // 队列满了
-        if ((tail + 1) % n == head) return false;
+        if ((tail + 1) % n == head) {
+            return false;
+        }
         items[tail] = item;
         tail = (tail + 1) % n;
         return true;
@@ -32,7 +31,9 @@ public class CircularQueue {
     // 出队
     public String dequeue() {
         // 如果head == tail 表示队列为空
-        if (head == tail) return null;
+        if (head == tail) {
+            return null;
+        }
         String ret = items[head];
         head = (head + 1) % n;
         return ret;

@@ -1,9 +1,6 @@
 /**
  * @ClassName ArrayStack
- * @Description 基于数组实现的顺序栈
- * @Author Chaiphat
- * @Date 2020/8/31 20:10
- * @Version 1.0
+ * @Description 基于数组实现的顺序栈 后进先出
  **/
 public class ArrayStack {
 
@@ -19,9 +16,9 @@ public class ArrayStack {
         this.count = 0;
     }
 
-    // 入栈操作
+    // 入栈操作 后进先出
     public boolean push(String item) {
-        if(count == n) {
+        if (count == n) {
             return false;
         }
         items[count] = item;
@@ -29,9 +26,9 @@ public class ArrayStack {
         return true;
     }
 
-    // 出栈操作
+    // 出栈操作 后进先出
     public String pop() {
-        if(count == 0) {
+        if (count == 0) {
             return null;
         }
         String tmp = items[count - 1];

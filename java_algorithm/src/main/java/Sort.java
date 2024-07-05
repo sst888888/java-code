@@ -36,6 +36,7 @@ public class Sort {
 
     /**
      * 插入排序  比冒泡排序更优
+     * arr[8,5,3,2,9,6]
      */
     public int[] insertionSort(int[] sourceArray){
         int[] arr = Arrays.copyOf(sourceArray, sourceArray.length);
@@ -58,6 +59,29 @@ public class Sort {
         }
         return arr;
     }
+
+    // arr[8,5,3,2,9,6]
+    public static int[] insertionSort2(int[] a){
+        if (a.length <= 1) {
+            return a;
+        }
+
+        for (int i = 1; i < a.length; ++i) {
+            int value = a[i]; // i = 1  value = 5
+            int j = i - 1; // j = 0
+            // 查找插入的位置
+            for (; j >= 0; --j) {
+                if (a[j] > value) { // 8 > 5
+                    a[j+1] = a[j];
+                } else {
+                    break;
+                }
+            }
+            a[j+1] = value;
+        }
+        return a;
+    }
+
 
     /**
      * 希尔排序，插入排序的优化
@@ -93,7 +117,7 @@ public class Sort {
         int[] arr = Arrays.copyOf(sourceArray, sourceArray.length);
 
         for (int i = 0; i < arr.length - 1; i++) {
-            int min = i; // 记录的是最小值
+            int min = i; // 记录的是最小值 最小值的位置
 
             // 循环比较 i后面的值
             for (int j = i + 1; j < arr.length; j++) {
@@ -119,21 +143,21 @@ public class Sort {
         while (left.length > 0 && right.length > 0) {
             if (left[0] <= right[0]) {
                 result[i++] = left[0];
-                left = Arrays.copyOfRange(left, 1, left.length);
+                left = Arrays.copyOfRange(left,1, left.length);
             } else {
                 result[i++] = right[0];
-                right = Arrays.copyOfRange(right, 1, right.length);
+                right = Arrays.copyOfRange(right,1, right.length);
             }
         }
 
         while (left.length > 0) {
             result[i++] = left[0];
-            left = Arrays.copyOfRange(left, 1, left.length);
+            left = Arrays.copyOfRange(left,1, left.length);
         }
 
         while (right.length > 0) {
             result[i++] = right[0];
-            right = Arrays.copyOfRange(right, 1, right.length);
+            right = Arrays.copyOfRange(right,1, right.length);
         }
 
         return result;
@@ -151,7 +175,7 @@ public class Sort {
         }
         int middle = (int) Math.floor(arr.length / 2);
 
-        int[] left = Arrays.copyOfRange(arr, 0, middle);
+        int[] left = Arrays.copyOfRange(arr,0, middle);
         int[] right = Arrays.copyOfRange(arr, middle, arr.length);
 
         return merge(mergeSort(left), mergeSort(right));
@@ -335,6 +359,10 @@ public class Sort {
         int[] arr = {8,5,3,2,9,6};
         Sort sort = new Sort();
         int[] bubbledSort = sort.bubbleSort(arr);
+        for (int i : bubbledSort) {
+            System.out.println(i);
+        }
+
         bubbledSort = sort.insertionSort(arr);
         bubbledSort = sort.selectionSort(arr);
         bubbledSort = sort.shellSort(arr);
@@ -344,6 +372,8 @@ public class Sort {
         bubbledSort = sort.countingSort(arr);
         bubbledSort = sort.radixSort(arr);
 
+        int[] arr2 = {8,5,3,2,9,6};
+        bubbledSort = sort.insertionSort2(arr2);
         for (int i : bubbledSort) {
             System.out.println(i);
         }
