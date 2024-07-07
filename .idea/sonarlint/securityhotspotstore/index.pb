@@ -587,3 +587,13 @@ h
 ,java_algorithm/src/main/java/ArrayStack.java,6/a/6a4f3294a3fdbd4edff266ee04804a2fd2bd6197
 _
 /java_algorithm/src/main/java/CircularQueue.java,9/f/9f963a3a907a8ea9c03f793027218a0912281006
+p
+@java_algorithm/src/main/java/chapter/searching/BinarySearch.java,7/b/7bc91411367f1278cb34d1ff11a4051796568b9d
+y
+Ijava_algorithm/src/main/java/chapter/searching/BinarySearchInsertion.java,4/e/4e25abc8048f4aa8bac36188b1989349173f23e8
+t
+Djava_algorithm/src/main/java/chapter/searching/BinarySearchEdge.java,6/4/64e79fce25314c4e493e9556b5ee882ab64e18d1
+j
+:java_algorithm/src/main/java/chapter/searching/TwoSUm.java,4/a/4a54486db395bafd142608f37e4d481c019415d6
+j
+:java_algorithm/src/main/java/chapter/searching/TwoSum.java,6/a/6a3daa45360851cb041dbe6e036126e3683f2b9d
