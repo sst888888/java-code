@@ -16,6 +16,10 @@ public class TestCatch {
         System.out.println(test2());
         System.out.println(test3());
         System.out.println(test4());
+
+        Student1 student1 = new Student1("abc");
+        Student2 student2 = new Student2("abcfff");
+        System.out.println(student1.equals(student2));
     }
 
 
@@ -69,4 +73,6 @@ public class TestCatch {
             return i;
         }
     }
+
+
 }
