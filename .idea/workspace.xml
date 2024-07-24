@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30e47135-48ea-470a-ba66-383e654da240" name="Changes" comment="命令模式">
-      <change afterPath="$PROJECT_DIR$/java_base/src/main/java/catchfinally/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_base/src/main/java/catchfinally/Student1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_base/src/main/java/catchfinally/Student2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+    <list default="true" id="30e47135-48ea-470a-ba66-383e654da240" name="Changes" comment="equals比较对象">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_base/src/main/java/catchfinally/TestCatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_base/src/main/java/catchfinally/TestCatch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_base/target/classes/catchfinally/TestCatch.class" beforeDir="false" afterPath="$PROJECT_DIR$/java_base/target/classes/catchfinally/TestCatch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/es" beforeDir="false" afterPath="$PROJECT_DIR$/es" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,13 +187,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1695565794566</updated>
-    </task>
-    <task id="LOCAL-00002" summary="ignore">
-      <created>1695566985613</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1695566985613</updated>
     </task>
     <task id="LOCAL-00003" summary="strategy release">
       <created>1695621471175</created>
@@ -537,7 +524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1721560753092</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="equals比较对象">
+      <created>1721714230150</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1721714230150</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -553,7 +547,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="lock" />
     <MESSAGE value="开发模式feign配置" />
     <MESSAGE value="mybatis拦截器" />
     <MESSAGE value="maven依赖" />
@@ -578,7 +571,8 @@
     <MESSAGE value="二分查找边界" />
     <MESSAGE value="二分查找分治" />
     <MESSAGE value="命令模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="命令模式" />
+    <MESSAGE value="equals比较对象" />
+    <option name="LAST_COMMIT_MESSAGE" value="equals比较对象" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

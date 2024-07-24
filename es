@@ -42,3 +42,6 @@ http://192.168.80.35:9200/media_video_test/_update_by_query
     }
   }
 }
+
+学习资料
+https://www.cnblogs.com/jelly12345/p/15007745.html
