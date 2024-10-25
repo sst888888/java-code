@@ -617,3 +617,7 @@ b
 2java_base/src/main/java/catchfinally/Student1.java,a/0/a0b1a53aa511ff5ec9c1ea18ae42f8b58ffaa12f
 b
 2java_base/src/main/java/catchfinally/Student2.java,3/e/3e360d57a51f53f3340ccdb0ceed459143bd5da6
+]
+-api-analysis/src/test/java/BeanUtilsTest.java,c/9/c9f5c8569ac891543e4fa23c0beb563e5befee99
+<
+logs/app.log,1/9/19551365d5d85d08cf06f31af46de9860d5f5240

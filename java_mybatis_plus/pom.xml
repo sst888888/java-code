@@ -41,6 +41,13 @@
             <artifactId>beetl</artifactId>
             <version>3.1.1.RELEASE</version>
         </dependency>
+
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>1.2.3</version> <!-- 或者最新版本 -->
+        </dependency>
+
     </dependencies>
 
 </project>

@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30e47135-48ea-470a-ba66-383e654da240" name="Changes" comment="equals比较对象">
+    <list default="true" id="30e47135-48ea-470a-ba66-383e654da240" name="Changes" comment="学习资料">
+      <change afterPath="$PROJECT_DIR$/java_mybatis_plus/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/app.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/es" beforeDir="false" afterPath="$PROJECT_DIR$/es" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_mybatis_plus/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java_mybatis_plus/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_mybatis_plus/src/main/java/org/plus/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_mybatis_plus/src/main/java/org/plus/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,20 +95,7 @@
       <recent name="com.example.decorator" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestCatch">
-    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter.searching.BinarySearch" />
-      <module name="java_algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter.searching.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.org.plus.Main">
     <configuration name="BuildTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapter.tree.BuildTree" />
       <module name="java_algorithm" />
@@ -130,6 +122,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.jdbc.Main" />
+      <module name="java_mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.jdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestCatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="catchfinally.TestCatch" />
       <module name="java_base" />
@@ -143,12 +148,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter.searching.TwoSum" />
-      <module name="java_algorithm" />
+    <configuration name="org.plus.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.plus.Main" />
+      <module name="java_mybatis_plus" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter.searching.*" />
+          <option name="PATTERN" value="org.plus.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.plus.Main" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.TestCatch" />
         <item itemvalue="Application.Invoker" />
         <item itemvalue="Application.BuildTree" />
-        <item itemvalue="Application.BinarySearch" />
-        <item itemvalue="Application.TwoSum" />
       </list>
     </recent_temporary>
   </component>
@@ -187,13 +192,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1695565794566</updated>
-    </task>
-    <task id="LOCAL-00003" summary="strategy release">
-      <created>1695621471175</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1695621471175</updated>
     </task>
     <task id="LOCAL-00004" summary="strategy release">
       <created>1695624506312</created>
@@ -531,7 +529,14 @@
       <option name="project" value="LOCAL" />
       <updated>1721714230150</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="学习资料">
+      <created>1721815735663</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1721815735664</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -547,7 +552,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="开发模式feign配置" />
     <MESSAGE value="mybatis拦截器" />
     <MESSAGE value="maven依赖" />
     <MESSAGE value="脱敏" />
@@ -572,7 +576,8 @@
     <MESSAGE value="二分查找分治" />
     <MESSAGE value="命令模式" />
     <MESSAGE value="equals比较对象" />
-    <option name="LAST_COMMIT_MESSAGE" value="equals比较对象" />
+    <MESSAGE value="学习资料" />
+    <option name="LAST_COMMIT_MESSAGE" value="学习资料" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

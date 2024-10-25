@@ -1,0 +1,6 @@
+2024-09-30 02:54:20 [main] INFO  org.plus.Main - 这是一个 info 级别的日志消息。
+2024-09-30 02:54:20 [main] DEBUG org.plus.Main - 这是一个 debug 级别的日志消息。
+2024-09-30 02:54:20 [main] ERROR org.plus.Main - 这是一个 error 级别的日志消息。
+2024-09-30 02:55:05 [main] INFO  org.plus.Main - 这是一个 info 级别的日志消息。
+2024-09-30 02:55:05 [main] DEBUG org.plus.Main - 这是一个 debug 级别的日志消息。
+2024-09-30 02:55:05 [main] ERROR org.plus.Main - 这是一个 error 级别的日志消息。
