@@ -9,6 +9,7 @@
         <module name="java_100" />
         <module name="java_algorithm" />
         <module name="java_zk" />
+        <module name="small_spring" />
         <module name="spring-boot-kafka-demo" />
         <module name="mmall" />
         <module name="java_mybatis_plus" />
@@ -46,6 +47,7 @@
       <module name="java_strategy (2)" options="-parameters" />
       <module name="java_zk" options="-parameters" />
       <module name="mmall" options="-parameters" />
+      <module name="small_spring" options="-parameters" />
       <module name="spring-boot-kafka-demo" options="-parameters" />
     </option>
   </component>

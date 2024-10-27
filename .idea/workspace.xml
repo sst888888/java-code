@@ -4,14 +4,54 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30e47135-48ea-470a-ba66-383e654da240" name="Changes" comment="学习资料">
-      <change afterPath="$PROJECT_DIR$/java_mybatis_plus/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/app.log" afterDir="false" />
+    <list default="true" id="30e47135-48ea-470a-ba66-383e654da240" name="Changes" comment="logback">
+      <change afterPath="$PROJECT_DIR$/small_spring/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small_spring/src/main/java/org/springframework/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small_spring/src/main/java/org/springframework/beans/BeansException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small_spring/src/main/java/org/springframework/beans/PropertyValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small_spring/src/main/java/org/springframework/beans/PropertyValues.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small_spring/src/main/java/org/springframework/beans/factory/BeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small_spring/src/main/java/org/springframework/beans/factory/ConfigurableListableBeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small_spring/src/main/java/org/springframework/beans/factory/HierarchicalBeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small_spring/src/main/java/org/springframework/beans/factory/ListableBeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small_spring/src/main/java/org/springframework/beans/factory/config/AutowireCapableBeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small_spring/src/main/java/org/springframework/beans/factory/config/BeanDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small_spring/src/main/java/org/springframework/beans/factory/config/BeanFactoryPostProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small_spring/src/main/java/org/springframework/beans/factory/config/BeanPostProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small_spring/src/main/java/org/springframework/beans/factory/config/BeanReference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small_spring/src/main/java/org/springframework/beans/factory/config/ConfigurableBeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small_spring/src/main/java/org/springframework/beans/factory/config/SingletonBeanRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small_spring/src/main/java/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small_spring/src/main/java/org/springframework/beans/factory/support/AbstractBeanDefinitionReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small_spring/src/main/java/org/springframework/beans/factory/support/AbstractBeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small_spring/src/main/java/org/springframework/beans/factory/support/BeanDefinitionReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small_spring/src/main/java/org/springframework/beans/factory/support/BeanDefinitionRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small_spring/src/main/java/org/springframework/beans/factory/support/CglibSubclassingInstantiationStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small_spring/src/main/java/org/springframework/beans/factory/support/DefaultListableBeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small_spring/src/main/java/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small_spring/src/main/java/org/springframework/beans/factory/support/InstantiationStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small_spring/src/main/java/org/springframework/beans/factory/support/SimpleInstantiationStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small_spring/src/main/java/org/springframework/beans/factory/xml/XmlBeanDefinitionReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small_spring/src/main/java/org/springframework/core/io/ClassPathResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small_spring/src/main/java/org/springframework/core/io/DefaultResourceLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small_spring/src/main/java/org/springframework/core/io/FileSystemResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small_spring/src/main/java/org/springframework/core/io/Resource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small_spring/src/main/java/org/springframework/core/io/ResourceLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small_spring/src/main/java/org/springframework/core/io/UrlResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small_spring/src/main/java/org/springframework/util/ClassUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small_spring/src/test/java/org/springframework/test/ApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small_spring/src/test/java/org/springframework/test/BeanTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small_spring/src/test/java/org/springframework/test/XmlTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small_spring/src/test/java/org/springframework/test/bean/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small_spring/src/test/java/org/springframework/test/bean/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small_spring/src/test/resources/important.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small_spring/src/test/resources/spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_mybatis_plus/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java_mybatis_plus/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_mybatis_plus/src/main/java/org/plus/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_mybatis_plus/src/main/java/org/plus/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +63,9 @@
       <list>
         <option value="Enum" />
         <option value="FxmlFile" />
-        <option value="Interface" />
+        <option value="Kotlin Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -95,68 +136,82 @@
       <recent name="com.example.decorator" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.plus.Main">
-    <configuration name="BuildTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter.tree.BuildTree" />
-      <module name="java_algorithm" />
+  <component name="RunManager" selected="JUnit.XmlTest.test_xml">
+    <configuration name="BeanTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="small_spring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter.tree.*" />
+          <option name="PATTERN" value="org.springframework.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="org.springframework.test" />
+      <option name="MAIN_CLASS_NAME" value="org.springframework.test.BeanTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Invoker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.command.Invoker" />
-      <module name="java_strategy" />
+    <configuration name="XmlTest.test_classpath" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="small_spring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.command.*" />
+          <option name="PATTERN" value="org.springframework.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="org.springframework.test" />
+      <option name="MAIN_CLASS_NAME" value="org.springframework.test.XmlTest" />
+      <option name="METHOD_NAME" value="test_classpath" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.jdbc.Main" />
-      <module name="java_mybatis" />
+    <configuration name="XmlTest.test_file" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="small_spring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.jdbc.*" />
+          <option name="PATTERN" value="org.springframework.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="org.springframework.test" />
+      <option name="MAIN_CLASS_NAME" value="org.springframework.test.XmlTest" />
+      <option name="METHOD_NAME" value="test_file" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="catchfinally.TestCatch" />
-      <module name="java_base" />
+    <configuration name="XmlTest.test_url" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="small_spring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="catchfinally.*" />
+          <option name="PATTERN" value="org.springframework.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="org.springframework.test" />
+      <option name="MAIN_CLASS_NAME" value="org.springframework.test.XmlTest" />
+      <option name="METHOD_NAME" value="test_url" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.plus.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.plus.Main" />
-      <module name="java_mybatis_plus" />
+    <configuration name="XmlTest.test_xml" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="small_spring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.plus.*" />
+          <option name="PATTERN" value="org.springframework.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="org.springframework.test" />
+      <option name="MAIN_CLASS_NAME" value="org.springframework.test.XmlTest" />
+      <option name="METHOD_NAME" value="test_xml" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -176,11 +231,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.org.plus.Main" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.TestCatch" />
-        <item itemvalue="Application.Invoker" />
-        <item itemvalue="Application.BuildTree" />
+        <item itemvalue="JUnit.XmlTest.test_xml" />
+        <item itemvalue="JUnit.XmlTest.test_url" />
+        <item itemvalue="JUnit.XmlTest.test_file" />
+        <item itemvalue="JUnit.XmlTest.test_classpath" />
+        <item itemvalue="JUnit.BeanTest" />
       </list>
     </recent_temporary>
   </component>
@@ -192,13 +247,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1695565794566</updated>
-    </task>
-    <task id="LOCAL-00004" summary="strategy release">
-      <created>1695624506312</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1695624506312</updated>
     </task>
     <task id="LOCAL-00005" summary="strategy risk">
       <created>1695628622304</created>
@@ -536,7 +584,14 @@
       <option name="project" value="LOCAL" />
       <updated>1721815735664</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="logback">
+      <created>1729856624320</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1729856624320</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -552,7 +607,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="mybatis拦截器" />
     <MESSAGE value="maven依赖" />
     <MESSAGE value="脱敏" />
     <MESSAGE value="guana map" />
@@ -577,7 +631,8 @@
     <MESSAGE value="命令模式" />
     <MESSAGE value="equals比较对象" />
     <MESSAGE value="学习资料" />
-    <option name="LAST_COMMIT_MESSAGE" value="学习资料" />
+    <MESSAGE value="logback" />
+    <option name="LAST_COMMIT_MESSAGE" value="logback" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

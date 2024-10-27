@@ -15,6 +15,7 @@
         <module>java_zk</module>
         <module>java_mybatis_plus</module>
         <module>java_excel</module>
+        <module>small_spring</module>
     </modules>
 
     <parent>
