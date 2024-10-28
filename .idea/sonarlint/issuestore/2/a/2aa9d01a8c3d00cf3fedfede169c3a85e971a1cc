@@ -1,0 +1,13 @@
+
+™	java:S135^"YReduce the total number of break and continue statements in this loop to use at most one.(öºÜÔÿÿÿÿÿJ$7d7c33bb-9d06-4f3f-81fe-ce9001e4e13f
+™	java:S135H"YReduce the total number of break and continue statements in this loop to use at most one.(éığöüÿÿÿÿJ$37cc3a82-4be1-458d-b782-2708dfc54b25
+“
+java:S3776C"RRefactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.(Ùóø×úÿÿÿÿJ$b43debf8-3a70-42bb-9c7f-d18ab255bef6
+‹
+java:S3252V"OUse static access with "cn.hutool.core.text.CharSequenceUtil" for "isNotEmpty".(çñİJ$f8268c61-d357-44e0-848c-c7695144be9f
+ˆ
+java:S3252W"LUse static access with "cn.hutool.core.text.CharSequenceUtil" for "isEmpty".(ôè‚†J$7ce25a9d-df96-4f9e-ba63-c3c86388b922
+
+java:S3252X"OUse static access with "cn.hutool.core.text.CharSequenceUtil" for "lowerFirst".(·ªıÑüÿÿÿÿJ$c95d96fb-d946-4381-8985-97ffb473fce5
+
+java:S3252g"OUse static access with "cn.hutool.core.text.CharSequenceUtil" for "isNotEmpty".(Üèû„ÿÿÿÿÿJ$42f50c97-22e5-49ce-9bb7-373b0991b514
