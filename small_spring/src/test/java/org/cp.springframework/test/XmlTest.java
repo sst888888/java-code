@@ -59,7 +59,7 @@ public class XmlTest {
 
         // 3. 获取Bean对象调用方法
         UserService userService = beanFactory.getBean("userService", UserService.class);
-        String result = userService.queryUserInfo2();
+        String result = userService.queryUserInfo();
         System.out.println("测试结果：" + result);
     }
 

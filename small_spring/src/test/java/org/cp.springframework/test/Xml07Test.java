@@ -33,7 +33,7 @@ public class Xml07Test {
 
         // 5. 获取Bean对象调用方法
         UserService userService = beanFactory.getBean("userService", UserService.class);
-        String result = userService.queryUserInfo07();
+        String result = userService.queryUserInfo();
         System.out.println("测试结果：" + result);
     }
 
@@ -44,7 +44,7 @@ public class Xml07Test {
 
         // 2. 获取Bean对象调用方法
         UserService userService = applicationContext.getBean("userService", UserService.class);
-        String result = userService.queryUserInfo07();
+        String result = userService.queryUserInfo();
         System.out.println("测试结果：" + result);
     }
 

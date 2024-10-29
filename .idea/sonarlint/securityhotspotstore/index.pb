@@ -1461,3 +1461,13 @@ w
 G.idea/sonarlint/issuestore/d/1/d1073e5fcb57006b171038cbd9e9e7335b76f09f,1/c/1cff6468f9e66d4f3e5191f534392affaee46af8
 w
 G.idea/sonarlint/issuestore/b/0/b0a4cad53cbbe059f9c4b16cea3bfd1dc128c2b8,9/5/9501a7c12ffc0d74ba48811e0c93e619a1e56ddf
+Ä
+Psmall_spring/src/main/java/org/cp/springframework/beans/factory/FactoryBean.java,9/0/902810a1e5daae3b61098de6b24b4d7d6f3fd094
+ó
+gsmall_spring/src/main/java/org/cp/springframework/beans/factory/support/FactoryBeanRegistrySupport.java,d/7/d7df887d6edf1e58d166540b173b2f2d76192119
+y
+Ismall_spring/src/test/java/org/cp.springframework/test/bean/IUserDao.java,2/8/28cdf7652f0578db36f78f18457539a474d8ee4e
+Å
+Qsmall_spring/src/test/java/org/cp.springframework/test/bean/ProxyBeanFactory.java,1/f/1f9840fe9129f4c599795dc5ed9269ad7a92b224
+u
+Esmall_spring/src/test/java/org/cp.springframework/test/Xml10Test.java,8/3/833d6726669d1e4e2ca164403ce059efa956e28b

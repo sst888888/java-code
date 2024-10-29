@@ -18,7 +18,7 @@ public class Xml08Test {
 
         // 2. 获取Bean对象调用方法
         UserService userService = applicationContext.getBean("userService", UserService.class);
-        String result = userService.queryUserInfo07();
+        String result = userService.queryUserInfo();
         System.out.println("测试结果：" + result);
     }
 
