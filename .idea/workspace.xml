@@ -5,41 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30e47135-48ea-470a-ba66-383e654da240" name="Changes" comment="07">
+      <change afterPath="$PROJECT_DIR$/small_spring/src/main/java/org/cp/springframework/beans/factory/DisposableBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small_spring/src/main/java/org/cp/springframework/beans/factory/InitializingBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small_spring/src/main/java/org/cp/springframework/beans/factory/support/DisposableBeanAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/a/2a246f2e2857927b8c4ca7984fa6fa827668f156" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/a/2a246f2e2857927b8c4ca7984fa6fa827668f156" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/a/2aa9d01a8c3d00cf3fedfede169c3a85e971a1cc" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/a/2aa9d01a8c3d00cf3fedfede169c3a85e971a1cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/e/aebf08a356f7c919fe460115f445a9bcfec19505" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/e/aebf08a356f7c919fe460115f445a9bcfec19505" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/5/f5bccbebf8817da893791544609f9cdac97a1454" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/5/f5bccbebf8817da893791544609f9cdac97a1454" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/small_spring/target/classes/org/cp/springframework/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/small_spring/target/classes/org/cp/springframework/beans/BeansException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/small_spring/target/classes/org/cp/springframework/beans/PropertyValue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/small_spring/target/classes/org/cp/springframework/beans/PropertyValues.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/small_spring/target/classes/org/cp/springframework/beans/factory/BeanFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/small_spring/target/classes/org/cp/springframework/beans/factory/ConfigurableListableBeanFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/small_spring/target/classes/org/cp/springframework/beans/factory/HierarchicalBeanFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/small_spring/target/classes/org/cp/springframework/beans/factory/ListableBeanFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/small_spring/target/classes/org/cp/springframework/beans/factory/config/AutowireCapableBeanFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/small_spring/target/classes/org/cp/springframework/beans/factory/config/BeanDefinition.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/small_spring/target/classes/org/cp/springframework/beans/factory/config/BeanFactoryPostProcessor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/small_spring/target/classes/org/cp/springframework/beans/factory/config/BeanPostProcessor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/small_spring/target/classes/org/cp/springframework/beans/factory/config/BeanReference.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/small_spring/target/classes/org/cp/springframework/beans/factory/config/ConfigurableBeanFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/small_spring/target/classes/org/cp/springframework/beans/factory/config/SingletonBeanRegistry.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/small_spring/target/classes/org/cp/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/small_spring/target/classes/org/cp/springframework/beans/factory/support/AbstractBeanDefinitionReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/small_spring/target/classes/org/cp/springframework/beans/factory/support/AbstractBeanFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/small_spring/target/classes/org/cp/springframework/beans/factory/support/BeanDefinitionReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/small_spring/target/classes/org/cp/springframework/beans/factory/support/BeanDefinitionRegistry.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/small_spring/target/classes/org/cp/springframework/beans/factory/support/CglibSubclassingInstantiationStrategy$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/small_spring/target/classes/org/cp/springframework/beans/factory/support/CglibSubclassingInstantiationStrategy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/small_spring/target/classes/org/cp/springframework/beans/factory/support/DefaultListableBeanFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/small_spring/target/classes/org/cp/springframework/beans/factory/support/DefaultSingletonBeanRegistry.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/small_spring/target/classes/org/cp/springframework/beans/factory/support/InstantiationStrategy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/small_spring/target/classes/org/cp/springframework/beans/factory/support/SimpleInstantiationStrategy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/small_spring/target/classes/org/cp/springframework/beans/factory/xml/XmlBeanDefinitionReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/small_spring/target/classes/org/cp/springframework/context/support/AbstractXmlApplicationContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/small_spring/target/classes/org/cp/springframework/context/support/ClassPathXmlApplicationContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/small_spring/target/classes/org/cp/springframework/core/io/ClassPathResource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/small_spring/target/classes/org/cp/springframework/core/io/FileSystemResource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/small_spring/target/classes/org/cp/springframework/core/io/Resource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/small_spring/target/classes/org/cp/springframework/core/io/UrlResource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/small_spring/target/classes/org/cp/springframework/util/ClassUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/small_spring/src/main/java/org/cp/springframework/beans/factory/config/BeanDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/small_spring/src/main/java/org/cp/springframework/beans/factory/config/BeanDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/small_spring/src/main/java/org/cp/springframework/beans/factory/config/SingletonBeanRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/small_spring/src/main/java/org/cp/springframework/beans/factory/config/SingletonBeanRegistry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/small_spring/src/main/java/org/cp/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/small_spring/src/main/java/org/cp/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/small_spring/src/main/java/org/cp/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/small_spring/src/main/java/org/cp/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/small_spring/src/main/java/org/cp/springframework/beans/factory/xml/XmlBeanDefinitionReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/small_spring/src/main/java/org/cp/springframework/beans/factory/xml/XmlBeanDefinitionReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/small_spring/src/main/java/org/cp/springframework/context/ConfigurableApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/small_spring/src/main/java/org/cp/springframework/context/ConfigurableApplicationContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/small_spring/src/main/java/org/cp/springframework/context/support/AbstractApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/small_spring/src/main/java/org/cp/springframework/context/support/AbstractApplicationContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/small_spring/src/test/java/org/cp.springframework/test/bean/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/small_spring/src/test/java/org/cp.springframework/test/bean/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/small_spring/src/test/java/org/cp.springframework/test/bean/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/small_spring/src/test/java/org/cp.springframework/test/bean/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/small_spring/src/test/java/org/cp.springframework/test/common/MyBeanFactoryPostProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/small_spring/src/test/java/org/cp.springframework/test/common/MyBeanFactoryPostProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/small_spring/src/test/resources/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/small_spring/src/test/resources/spring.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,8 +38,8 @@
         <option value="Enum" />
         <option value="FxmlFile" />
         <option value="Kotlin Interface" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -124,20 +110,7 @@
       <recent name="com.example.decorator" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Xml07Test.test_xml">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.cp.springframework.Main" />
-      <module name="small_spring" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.cp.springframework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Xml08Test.test_xml">
     <configuration name="Xml07Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="small_spring" />
       <extension name="coverage">
@@ -167,6 +140,22 @@
       <module name="small_spring" />
       <option name="PACKAGE_NAME" value="org.cp.springframework.test" />
       <option name="MAIN_CLASS_NAME" value="org.cp.springframework.test.Xml07Test" />
+      <option name="METHOD_NAME" value="test_xml" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Xml08Test.test_xml" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="small_spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.cp.springframework.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.cp.springframework.test" />
+      <option name="MAIN_CLASS_NAME" value="org.cp.springframework.test.Xml08Test" />
       <option name="METHOD_NAME" value="test_xml" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -204,11 +193,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Xml08Test.test_xml" />
         <item itemvalue="JUnit.Xml07Test.test_xml" />
         <item itemvalue="JUnit.Xml07Test.test_BeanFactoryPostProcessorAndBeanPostProcessor" />
         <item itemvalue="JUnit.Xml07Test" />
         <item itemvalue="JUnit.XmlTest.test_classpath (1)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -220,20 +209,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1695565794566</updated>
-    </task>
-    <task id="LOCAL-00007" summary="design ob ex1">
-      <created>1695708050527</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1695708050527</updated>
-    </task>
-    <task id="LOCAL-00008" summary="design ob ex1">
-      <created>1695708610708</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1695708610708</updated>
     </task>
     <task id="LOCAL-00009" summary="design ob ex2">
       <created>1695710078867</created>
@@ -564,7 +539,21 @@
       <option name="project" value="LOCAL" />
       <updated>1730040330495</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="07">
+      <created>1730094376116</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1730094376116</updated>
+    </task>
+    <task id="LOCAL-00057" summary="07">
+      <created>1730094385663</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1730094385663</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -647,31 +636,6 @@
           <url>file://$PROJECT_DIR$/java_excel/src/main/java/com/example/service/UserServiceImpl.java</url>
           <line>15</line>
           <option name="timeStamp" value="42" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/small_spring/src/test/java/org/cp.springframework/test/common/MyBeanPostProcessor.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="47" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/small_spring/src/test/java/org/cp.springframework/test/Xml07Test.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="48" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/small_spring/src/test/java/org/cp.springframework/test/Xml07Test.java</url>
-          <line>45</line>
-          <option name="timeStamp" value="55" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/small_spring/src/test/java/org/cp.springframework/test/Xml07Test.java</url>
-          <line>42</line>
-          <option name="timeStamp" value="56" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/small_spring/src/main/java/org/cp/springframework/context/support/AbstractApplicationContext.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="57" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

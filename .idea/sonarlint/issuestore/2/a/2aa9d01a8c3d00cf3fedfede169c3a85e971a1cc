@@ -1,13 +1,13 @@
 
-™	java:S135^"YReduce the total number of break and continue statements in this loop to use at most one.(öºÜÔÿÿÿÿÿJ$7d7c33bb-9d06-4f3f-81fe-ce9001e4e13f
-™	java:S135H"YReduce the total number of break and continue statements in this loop to use at most one.(éığöüÿÿÿÿJ$37cc3a82-4be1-458d-b782-2708dfc54b25
-“
-java:S3776C"RRefactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.(Ùóø×úÿÿÿÿJ$b43debf8-3a70-42bb-9c7f-d18ab255bef6
-‹
-java:S3252V"OUse static access with "cn.hutool.core.text.CharSequenceUtil" for "isNotEmpty".(çñİJ$f8268c61-d357-44e0-848c-c7695144be9f
-ˆ
-java:S3252W"LUse static access with "cn.hutool.core.text.CharSequenceUtil" for "isEmpty".(ôè‚†J$7ce25a9d-df96-4f9e-ba63-c3c86388b922
-
-java:S3252X"OUse static access with "cn.hutool.core.text.CharSequenceUtil" for "lowerFirst".(·ªıÑüÿÿÿÿJ$c95d96fb-d946-4381-8985-97ffb473fce5
-
-java:S3252g"OUse static access with "cn.hutool.core.text.CharSequenceUtil" for "isNotEmpty".(Üèû„ÿÿÿÿÿJ$42f50c97-22e5-49ce-9bb7-373b0991b514
+ 	java:S135f"YReduce the total number of break and continue statements in this loop to use at most one.(öºÜÔÿÿÿÿÿ8™Ç½­2J$82cad83e-c413-4d07-a073-cad32d422586
+ 	java:S135I"YReduce the total number of break and continue statements in this loop to use at most one.(éığöüÿÿÿÿ8’™Ç½­2J$74f0feb2-8764-4f0c-b32e-fa2b17451a75
+š
+java:S3776D"RRefactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.(Ùóø×úÿÿÿÿ8³™Ç½­2J$03099afa-0256-4cdb-bcd4-9d9d4967b3e4
+’
+java:S3252["OUse static access with "cn.hutool.core.text.CharSequenceUtil" for "isNotEmpty".(çñİ8Â™Ç½­2J$f1b72494-39a9-49b8-871f-40defff005a9
+
+java:S3252\"LUse static access with "cn.hutool.core.text.CharSequenceUtil" for "isEmpty".(ôè‚†8Ã™Ç½­2J$bb14e0ad-5b37-44b2-9d3e-c7b333421e7e
+—
+java:S3252]"OUse static access with "cn.hutool.core.text.CharSequenceUtil" for "lowerFirst".(·ªıÑüÿÿÿÿ8Ã™Ç½­2J$23542b91-f00a-42f3-835d-22d8bb57e615
+—
+java:S3252r"OUse static access with "cn.hutool.core.text.CharSequenceUtil" for "isNotEmpty".(Üèû„ÿÿÿÿÿ8É™Ç½­2J$60c26294-916d-4c64-8bfb-957402b4b2cb
