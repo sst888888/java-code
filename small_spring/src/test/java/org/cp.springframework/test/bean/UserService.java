@@ -1,13 +1,24 @@
 package org.cp.springframework.test.bean;
 
-import org.cp.springframework.beans.factory.DisposableBean;
-import org.cp.springframework.beans.factory.InitializingBean;
+import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
+import org.cp.springframework.beans.BeansException;
+import org.cp.springframework.beans.factory.*;
+import org.cp.springframework.context.ApplicationContext;
+import org.cp.springframework.context.ApplicationContextAware;
 
 /**
  * @author: cp
  * @date: 2024-10-25 20:36
  */
-public class UserService implements InitializingBean, DisposableBean {
+@Data
+@Setter
+@Getter
+public class UserService implements InitializingBean, DisposableBean, BeanNameAware, BeanClassLoaderAware, ApplicationContextAware, BeanFactoryAware {
+    private ApplicationContext applicationContext;
+    private BeanFactory beanFactory;
+
 
     private String uId;
     private String name;
@@ -95,5 +106,25 @@ public class UserService implements InitializingBean, DisposableBean {
     @Override
     public void destroy() throws Exception {
         System.out.println("执行：UserService.destroy");
+    }
+
+    @Override
+    public void setBeanName(String name) {
+        System.out.println("Bean Name is：" + name);
+    }
+
+    @Override
+    public void setBeanClassLoader(ClassLoader classLoader) {
+        System.out.println("ClassLoader：" + classLoader);
+    }
+
+    @Override
+    public void setBeanFactory(BeanFactory beanFactory) throws BeansException {
+        this.beanFactory = beanFactory;
+    }
+
+    @Override
+    public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
+        this.applicationContext = applicationContext;
     }
 }
