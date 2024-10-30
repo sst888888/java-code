@@ -1,16 +1,28 @@
 package org.cp.springframework.context.support;
 
-import org.cp.springframework.context.ConfigurableApplicationContext;
-import org.cp.springframework.core.io.DefaultResourceLoader;
 import org.cp.springframework.beans.BeansException;
 import org.cp.springframework.beans.factory.ConfigurableListableBeanFactory;
 import org.cp.springframework.beans.factory.config.BeanFactoryPostProcessor;
 import org.cp.springframework.beans.factory.config.BeanPostProcessor;
+import org.cp.springframework.context.ConfigurableApplicationContext;
+import org.cp.springframework.core.io.DefaultResourceLoader;
 
 import java.util.Map;
+
 /**
- * @author: cp
- * @date: 2024-10-27 19:57
+ * Abstract implementation of the {@link org.cp.springframework.context.ApplicationContext}
+ * interface. Doesn't mandate the type of storage used for configuration; simply
+ * implements common context functionality. Uses the Template Method design pattern,
+ * requiring concrete subclasses to implement abstract methods.
+ * <p>
+ * 抽象应用上下文
+ * <p>
+ *
+ *
+ *
+ *
+ *
+ * 作者：DerekYRC https://github.com/DerekYRC/mini-spring
  */
 public abstract class AbstractApplicationContext extends DefaultResourceLoader implements ConfigurableApplicationContext {
 
@@ -33,16 +45,6 @@ public abstract class AbstractApplicationContext extends DefaultResourceLoader i
 
         // 6. 提前实例化单例Bean对象
         beanFactory.preInstantiateSingletons();
-    }
-
-    @Override
-    public void registerShutdownHook() {
-        Runtime.getRuntime().addShutdownHook(new Thread(this::close));
-    }
-
-    @Override
-    public void close() {
-        getBeanFactory().destroySingletons();
     }
 
     protected abstract void refreshBeanFactory() throws BeansException;
@@ -87,4 +89,15 @@ public abstract class AbstractApplicationContext extends DefaultResourceLoader i
     public <T> T getBean(String name, Class<T> requiredType) throws BeansException {
         return getBeanFactory().getBean(name, requiredType);
     }
+
+    @Override
+    public void registerShutdownHook() {
+        Runtime.getRuntime().addShutdownHook(new Thread(this::close));
+    }
+
+    @Override
+    public void close() {
+        getBeanFactory().destroySingletons();
+    }
+
 }

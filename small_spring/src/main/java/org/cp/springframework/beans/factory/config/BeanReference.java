@@ -1,8 +1,8 @@
 package org.cp.springframework.beans.factory.config;
 
 /**
- * @author: cp
- * @date: 2024-10-27 15:08
+ * 作者：DerekYRC https://github.com/DerekYRC/mini-spring
+ *
  * Bean 的引用
  */
 public class BeanReference {

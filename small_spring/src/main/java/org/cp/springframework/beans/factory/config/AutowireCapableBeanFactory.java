@@ -4,8 +4,10 @@ import org.cp.springframework.beans.BeansException;
 import org.cp.springframework.beans.factory.BeanFactory;
 
 /**
- * @author: cp
- * @date: 2024-10-27 16:54
+ * Extension of the {@link org.cp.springframework.beans.factory.BeanFactory}
+ * interface to be implemented by bean factories that are capable of
+ * autowiring, provided that they want to expose this functionality for
+ * existing bean instances.
  */
 public interface AutowireCapableBeanFactory extends BeanFactory {
 

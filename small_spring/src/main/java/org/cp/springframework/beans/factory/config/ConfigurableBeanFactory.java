@@ -3,8 +3,10 @@ package org.cp.springframework.beans.factory.config;
 import org.cp.springframework.beans.factory.HierarchicalBeanFactory;
 
 /**
- * @author: cp
- * @date: 2024-10-27 16:55
+ * Configuration interface to be implemented by most bean factories. Provides
+ * facilities to configure a bean factory, in addition to the bean factory
+ * client methods in the {@link org.cp.springframework.beans.factory.BeanFactory}
+ * interface.
  */
 public interface ConfigurableBeanFactory extends HierarchicalBeanFactory, SingletonBeanRegistry {
 
@@ -13,5 +15,10 @@ public interface ConfigurableBeanFactory extends HierarchicalBeanFactory, Single
     String SCOPE_PROTOTYPE = "prototype";
 
     void addBeanPostProcessor(BeanPostProcessor beanPostProcessor);
+
+    /**
+     * 销毁单例对象
+     */
+    void destroySingletons();
 
 }

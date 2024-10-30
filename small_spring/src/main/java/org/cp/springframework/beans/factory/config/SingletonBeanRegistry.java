@@ -1,17 +1,13 @@
 package org.cp.springframework.beans.factory.config;
 
 /**
- * @author: cp
- * @date: 2024-10-25 20:18
+ * 作者：DerekYRC https://github.com/DerekYRC/mini-spring
+ *
  * 单例注册表
  */
 public interface SingletonBeanRegistry {
 
     Object getSingleton(String beanName);
 
-    /**
-     * 销毁单例对象
-     */
-    void destroySingletons();
-
 }
+                                                

@@ -5,8 +5,18 @@ import org.cp.springframework.beans.factory.ConfigurableListableBeanFactory;
 import org.cp.springframework.beans.factory.support.DefaultListableBeanFactory;
 
 /**
- * @author: cp
- * @date: 2024-10-27 20:21
+ * Base class for {@link org.cp.springframework.context.ApplicationContext}
+ * implementations which are supposed to support multiple calls to {@link #refresh()},
+ * creating a new internal bean factory instance every time.
+ * Typically (but not necessarily), such a context will be driven by
+ * a set of config locations to load bean definitions from.
+ *
+ *
+ *
+ *
+ *
+ *
+ * 作者：DerekYRC https://github.com/DerekYRC/mini-spring
  */
 public abstract class AbstractRefreshableApplicationContext extends AbstractApplicationContext {
 

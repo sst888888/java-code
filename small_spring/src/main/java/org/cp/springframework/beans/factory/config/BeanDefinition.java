@@ -3,8 +3,7 @@ package org.cp.springframework.beans.factory.config;
 import org.cp.springframework.beans.PropertyValues;
 
 /**
- * @author: cp
- * @date: 2024-10-25 20:16
+ * 作者：DerekYRC https://github.com/DerekYRC/mini-spring
  */
 public class BeanDefinition {
 

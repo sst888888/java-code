@@ -1,7 +1,5 @@
 package org.cp.springframework.beans.factory.xml;
 
-import cn.hutool.core.util.StrUtil;
-import cn.hutool.core.util.XmlUtil;
 import org.cp.springframework.beans.BeansException;
 import org.cp.springframework.beans.PropertyValue;
 import org.cp.springframework.beans.factory.config.BeanDefinition;
@@ -10,6 +8,8 @@ import org.cp.springframework.beans.factory.support.AbstractBeanDefinitionReader
 import org.cp.springframework.beans.factory.support.BeanDefinitionRegistry;
 import org.cp.springframework.core.io.Resource;
 import org.cp.springframework.core.io.ResourceLoader;
+import cn.hutool.core.util.StrUtil;
+import cn.hutool.core.util.XmlUtil;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.NodeList;
@@ -18,11 +18,16 @@ import java.io.IOException;
 import java.io.InputStream;
 
 /**
- * @author: cp
- * @date: 2024-10-27 15:53
+ * Bean definition reader for XML bean definitions.
+ * <p>
+ *
+ *
+ *
+ *
+ *
+ * 作者：DerekYRC https://github.com/DerekYRC/mini-spring
  */
 public class XmlBeanDefinitionReader extends AbstractBeanDefinitionReader {
-
 
     public XmlBeanDefinitionReader(BeanDefinitionRegistry registry) {
         super(registry);
@@ -64,7 +69,6 @@ public class XmlBeanDefinitionReader extends AbstractBeanDefinitionReader {
         }
     }
 
-    //doLoadBeanDefinitions中增加对init-method、destroy-method的读取
     protected void doLoadBeanDefinitions(InputStream inputStream) throws ClassNotFoundException {
         Document doc = XmlUtil.readXML(inputStream);
         Element root = doc.getDocumentElement();
@@ -124,4 +128,5 @@ public class XmlBeanDefinitionReader extends AbstractBeanDefinitionReader {
             getRegistry().registerBeanDefinition(beanName, beanDefinition);
         }
     }
+
 }

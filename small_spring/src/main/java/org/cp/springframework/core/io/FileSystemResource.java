@@ -5,10 +5,6 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 
-/**
- * @author: cp
- * @date: 2024-10-27 17:05
- */
 public class FileSystemResource implements Resource {
 
     private final File file;
@@ -33,4 +29,5 @@ public class FileSystemResource implements Resource {
     public final String getPath() {
         return this.path;
     }
+
 }

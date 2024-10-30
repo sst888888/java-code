@@ -1471,3 +1471,9 @@ Ismall_spring/src/test/java/org/cp.springframework/test/bean/IUserDao.java,2/8/
 Qsmall_spring/src/test/java/org/cp.springframework/test/bean/ProxyBeanFactory.java,1/f/1f9840fe9129f4c599795dc5ed9269ad7a92b224
 u
 Esmall_spring/src/test/java/org/cp.springframework/test/Xml10Test.java,8/3/833d6726669d1e4e2ca164403ce059efa956e28b
+ˆ
+Xsmall_spring/src/main/java/org22/cp/springframework/context/ApplicationContextAware.java,6/2/62cf38378cb7e717f2c9cff6ecfeb3fdf6707e96
+x
+Hsmall_spring/src/test/java/cn/bugstack/springframework/test/ApiTest.java,7/2/72b4c24c6c85d801fb3f8ffdeb23da76af317cb8
+Š
+Zsmall_spring/src/main/java/orgçš„å‰¯æœ¬/cp/springframework/context/ApplicationContext.java,9/4/94f0f4739f2a2e50e68865a384dba90490360ee7

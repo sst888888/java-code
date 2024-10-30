@@ -1,15 +1,22 @@
 package org.cp.springframework.beans.factory.support;
 
-import cn.hutool.core.util.StrUtil;
 import org.cp.springframework.beans.BeansException;
 import org.cp.springframework.beans.factory.DisposableBean;
 import org.cp.springframework.beans.factory.config.BeanDefinition;
+import cn.hutool.core.util.StrUtil;
 
 import java.lang.reflect.Method;
 
 /**
- * @author: cp
- * @date: 2024-10-29 18:11
+ * Adapter that implements the {@link DisposableBean} and {@link Runnable} interfaces
+ * performing various destruction steps on a given bean instance:
+ * <p>
+ *
+ *
+ *
+ *
+ *
+ * 作者：DerekYRC https://github.com/DerekYRC/mini-spring
  */
 public class DisposableBeanAdapter implements DisposableBean {
 
@@ -30,7 +37,7 @@ public class DisposableBeanAdapter implements DisposableBean {
             ((DisposableBean) bean).destroy();
         }
 
-        // 2. 配置信息 destroy-method {判断是为了避免二次执行销毁}
+        // 2. 注解配置 destroy-method {判断是为了避免二次执行销毁}
         if (StrUtil.isNotEmpty(destroyMethodName) && !(bean instanceof DisposableBean && "destroy".equals(this.destroyMethodName))) {
             Method destroyMethod = bean.getClass().getMethod(destroyMethodName);
             if (null == destroyMethod) {
@@ -38,7 +45,7 @@ public class DisposableBeanAdapter implements DisposableBean {
             }
             destroyMethod.invoke(bean);
         }
-
+        
     }
 
 }

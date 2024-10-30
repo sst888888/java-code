@@ -3,8 +3,17 @@ package org.cp.springframework.beans.factory.config;
 import org.cp.springframework.beans.BeansException;
 
 /**
- * @author: cp
- * @date: 2024-10-27 19:49
+ * Factory hook that allows for custom modification of new bean instances,
+ * e.g. checking for marker interfaces or wrapping them with proxies.
+ *
+ * 用于修改新实例化 Bean 对象的扩展点
+ *
+ *
+ *
+ *
+ *
+ *
+ * 作者：DerekYRC https://github.com/DerekYRC/mini-spring
  */
 public interface BeanPostProcessor {
 

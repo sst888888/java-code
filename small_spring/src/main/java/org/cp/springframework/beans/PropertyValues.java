@@ -4,8 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author: cp
- * @date: 2024-10-27 14:52
+ * 作者：DerekYRC https://github.com/DerekYRC/mini-spring
  */
 public class PropertyValues {
 

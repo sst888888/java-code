@@ -3,6 +3,7 @@ package org.cp.springframework.beans.factory;
 import org.cp.springframework.beans.BeansException;
 import org.cp.springframework.beans.factory.config.AutowireCapableBeanFactory;
 import org.cp.springframework.beans.factory.config.BeanDefinition;
+import org.cp.springframework.beans.factory.config.BeanPostProcessor;
 import org.cp.springframework.beans.factory.config.ConfigurableBeanFactory;
 
 /**

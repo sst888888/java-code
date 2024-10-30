@@ -6,8 +6,7 @@ import org.cp.springframework.context.ApplicationContext;
 import org.cp.springframework.context.ApplicationContextAware;
 
 /**
- * @author: cp
- * @date: 2024-10-29 20:21
+ * 作者：DerekYRC https://github.com/DerekYRC/mini-spring
  */
 public class ApplicationContextAwareProcessor implements BeanPostProcessor {
 
@@ -16,7 +15,6 @@ public class ApplicationContextAwareProcessor implements BeanPostProcessor {
     public ApplicationContextAwareProcessor(ApplicationContext applicationContext) {
         this.applicationContext = applicationContext;
     }
-
 
     @Override
     public Object postProcessBeforeInitialization(Object bean, String beanName) throws BeansException {
@@ -30,4 +28,5 @@ public class ApplicationContextAwareProcessor implements BeanPostProcessor {
     public Object postProcessAfterInitialization(Object bean, String beanName) throws BeansException {
         return bean;
     }
+
 }

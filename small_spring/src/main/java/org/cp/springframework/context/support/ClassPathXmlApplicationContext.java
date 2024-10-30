@@ -3,10 +3,22 @@ package org.cp.springframework.context.support;
 import org.cp.springframework.beans.BeansException;
 
 /**
- * @author: cp
- * @date: 2024-10-27 20:29
+ * Standalone XML application context, taking the context definition files
+ * from the class path, interpreting plain paths as class path resource names
+ * that include the package path (e.g. "mypackage/myresource.txt"). Useful for
+ * test harnesses as well as for application contexts embedded within JARs.
+ * <p>
+ * XML 文件应用上下文
+ * <p>
+ *
+ *
+ *
+ *
+ *
+ * 作者：DerekYRC https://github.com/DerekYRC/mini-spring
  */
-public class ClassPathXmlApplicationContext extends AbstractXmlApplicationContext{
+public class ClassPathXmlApplicationContext extends AbstractXmlApplicationContext {
+
     private String[] configLocations;
 
     public ClassPathXmlApplicationContext() {
@@ -36,4 +48,5 @@ public class ClassPathXmlApplicationContext extends AbstractXmlApplicationContex
     protected String[] getConfigLocations() {
         return configLocations;
     }
+
 }

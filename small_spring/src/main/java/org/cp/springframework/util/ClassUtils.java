@@ -1,9 +1,5 @@
 package org.cp.springframework.util;
 
-/**
- * @author: cp
- * @date: 2024-10-27 17:04
- */
 public class ClassUtils {
 
     public static ClassLoader getDefaultClassLoader() {

@@ -7,11 +7,9 @@ import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 
 /**
- * @author: cp
- * @date: 2024-10-25 21:59
+ * 作者：DerekYRC https://github.com/DerekYRC/mini-spring
  */
 public class SimpleInstantiationStrategy implements InstantiationStrategy {
-
 
     @Override
     public Object instantiate(BeanDefinition beanDefinition, String beanName, Constructor ctor, Object[] args) throws BeansException {
@@ -26,4 +24,5 @@ public class SimpleInstantiationStrategy implements InstantiationStrategy {
             throw new BeansException("Failed to instantiate [" + clazz.getName() + "]", e);
         }
     }
+
 }

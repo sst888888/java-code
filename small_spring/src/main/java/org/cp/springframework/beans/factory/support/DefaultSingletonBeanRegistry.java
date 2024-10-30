@@ -5,18 +5,25 @@ import org.cp.springframework.beans.factory.DisposableBean;
 import org.cp.springframework.beans.factory.config.SingletonBeanRegistry;
 
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Set;
+import java.util.concurrent.ConcurrentHashMap;
 
 /**
- * @author: cp
- * @date: 2024-10-25 20:20
+ * 作者：DerekYRC https://github.com/DerekYRC/mini-spring
  */
 public class DefaultSingletonBeanRegistry implements SingletonBeanRegistry {
 
-    private Map<String, Object> singletonObjects = new HashMap<>();
+    /**
+     * Internal marker for a null singleton object:
+     * used as marker value for concurrent Maps (which don't support null values).
+     */
+    protected static final Object NULL_OBJECT = new Object();
 
-    private final Map<String, DisposableBean> disposableBeans = new HashMap<>();
+    private Map<String, Object> singletonObjects = new ConcurrentHashMap<>();
+
+    private final Map<String, DisposableBean> disposableBeans = new LinkedHashMap<>();
 
     @Override
     public Object getSingleton(String beanName) {
@@ -31,11 +38,10 @@ public class DefaultSingletonBeanRegistry implements SingletonBeanRegistry {
         disposableBeans.put(beanName, bean);
     }
 
-    @Override
     public void destroySingletons() {
         Set<String> keySet = this.disposableBeans.keySet();
         Object[] disposableBeanNames = keySet.toArray();
-
+        
         for (int i = disposableBeanNames.length - 1; i >= 0; i--) {
             Object beanName = disposableBeanNames[i];
             DisposableBean disposableBean = disposableBeans.remove(beanName);
@@ -46,4 +52,5 @@ public class DefaultSingletonBeanRegistry implements SingletonBeanRegistry {
             }
         }
     }
+
 }

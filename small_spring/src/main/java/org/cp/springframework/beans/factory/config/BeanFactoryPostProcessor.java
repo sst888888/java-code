@@ -3,10 +3,18 @@ package org.cp.springframework.beans.factory.config;
 import org.cp.springframework.beans.BeansException;
 import org.cp.springframework.beans.factory.ConfigurableListableBeanFactory;
 
-
 /**
- * @author: cp
- * @date: 2024-10-27 19:33
+ * Allows for custom modification of an application context's bean definitions,
+ * adapting the bean property values of the context's underlying bean factory.
+ *
+ * 允许自定义修改 BeanDefinition 属性信息
+ *
+ *
+ *
+ *
+ *
+ *
+ * 作者：DerekYRC https://github.com/DerekYRC/mini-spring
  */
 public interface BeanFactoryPostProcessor {
 
@@ -17,6 +25,5 @@ public interface BeanFactoryPostProcessor {
      * @throws BeansException
      */
     void postProcessBeanFactory(ConfigurableListableBeanFactory beanFactory) throws BeansException;
-
 
 }

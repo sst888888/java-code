@@ -3,8 +3,17 @@ package org.cp.springframework.context;
 import org.cp.springframework.beans.BeansException;
 
 /**
- * @author: cp
- * @date: 2024-10-27 19:54
+ * SPI interface to be implemented by most if not all application contexts.
+ * Provides facilities to configure an application context in addition
+ * to the application context client methods in the
+ * {@link org.cp.springframework.context.ApplicationContext} interface.
+ *
+ *
+ *
+ *
+ *
+ *
+ * 作者：DerekYRC https://github.com/DerekYRC/mini-spring
  */
 public interface ConfigurableApplicationContext extends ApplicationContext {
 
@@ -18,4 +27,5 @@ public interface ConfigurableApplicationContext extends ApplicationContext {
     void registerShutdownHook();
 
     void close();
+
 }

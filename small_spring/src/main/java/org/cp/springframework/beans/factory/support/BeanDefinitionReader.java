@@ -5,8 +5,14 @@ import org.cp.springframework.core.io.Resource;
 import org.cp.springframework.core.io.ResourceLoader;
 
 /**
- * @author: cp
- * @date: 2024-10-27 17:15
+ * Simple interface for bean definition readers.
+ *
+ *
+ *
+ *
+ *
+ *
+ * 作者：DerekYRC https://github.com/DerekYRC/mini-spring
  */
 public interface BeanDefinitionReader {
 

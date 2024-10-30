@@ -1,10 +1,8 @@
 
-w
-java:S37409"/Provide the parametrized type for this generic.(÷³­™þÿÿÿÿ8Ò’æÄ­2J$663e628b-e9e9-4355-b137-400f93e94297
-w
-java:S3740<"/Provide the parametrized type for this generic.(¢ÄÝÈüÿÿÿÿ8Ò’æÄ­2J$45ac5519-8742-40ee-9ac1-e20bddfcf839
-’
-java:S32523"OUse static access with "cn.hutool.core.text.CharSequenceUtil" for "isNotEmpty".(”ÒºÞ8à’æÄ­2J$abb9eed7-6917-41a7-837a-809f0f9b5c61
-	java:S125‰"<This block of commented-out lines of code should be removed.(Ã£Õí8â’æÄ­2J$96f826f4-4baa-4c22-b2b3-90f57154b7c1
-˜
-java:S3252‹"OUse static access with "cn.hutool.core.text.CharSequenceUtil" for "isNotEmpty".(¤Î¯îüÿÿÿÿ8â’æÄ­2J$93f556bd-339c-4aac-a73d-a4fe6524cc92
+Q
+java:S3740D"/Provide the parametrized type for this generic.(÷³­™þÿÿÿÿ8²‡Þà­2
+Q
+java:S3740G"/Provide the parametrized type for this generic.(¢ÄÝÈüÿÿÿÿ8²‡Þà­2
+Y	java:S125”"<This block of commented-out lines of code should be removed.(Ã£Õí8Ë‡Þà­2
+u
+java:S1128"SRemove this unused import 'org.cp.springframework.context.ApplicationContextAware'.(šÁˆ„úÿÿÿÿ8Í‡Þà­2

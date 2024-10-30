@@ -1,6 +1,7 @@
 package org.cp.springframework.beans.factory.support;
 
 import org.cp.springframework.beans.BeansException;
+import org.cp.springframework.beans.factory.BeanFactory;
 import org.cp.springframework.beans.factory.FactoryBean;
 import org.cp.springframework.beans.factory.config.BeanDefinition;
 import org.cp.springframework.beans.factory.config.BeanPostProcessor;
@@ -11,8 +12,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author: cp
- * @date: 2024-10-25 20:22
+ * 作者：DerekYRC https://github.com/DerekYRC/mini-spring
+ * <p>
+ * BeanDefinition注册表接口
  */
 public abstract class AbstractBeanFactory extends FactoryBeanRegistrySupport implements ConfigurableBeanFactory {
 

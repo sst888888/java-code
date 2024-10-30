@@ -1,7 +1,5 @@
 package org.cp.springframework.beans.factory.support;
 
-import cn.hutool.core.bean.BeanUtil;
-import cn.hutool.core.util.StrUtil;
 import org.cp.springframework.beans.BeansException;
 import org.cp.springframework.beans.PropertyValue;
 import org.cp.springframework.beans.PropertyValues;
@@ -10,11 +8,24 @@ import org.cp.springframework.beans.factory.config.AutowireCapableBeanFactory;
 import org.cp.springframework.beans.factory.config.BeanDefinition;
 import org.cp.springframework.beans.factory.config.BeanPostProcessor;
 import org.cp.springframework.beans.factory.config.BeanReference;
+import org.cp.springframework.context.ApplicationContextAware;
+import cn.hutool.core.bean.BeanUtil;
+import cn.hutool.core.util.StrUtil;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Method;
 
 /**
+ * Abstract bean factory superclass that implements default bean creation,
+ * with the full capabilities specified by the class.
+ * Implements the {@link org.cp.springframework.beans.factory.config.AutowireCapableBeanFactory}
+ * interface in addition to AbstractBeanFactory's {@link #createBean} method.
+ * <p>
+ *
+ *
+ *
+ *
+ *
  * 作者：DerekYRC https://github.com/DerekYRC/mini-spring
  */
 public abstract class AbstractAutowireCapableBeanFactory extends AbstractBeanFactory implements AutowireCapableBeanFactory {
@@ -166,4 +177,5 @@ public abstract class AbstractAutowireCapableBeanFactory extends AbstractBeanFac
         }
         return result;
     }
+
 }

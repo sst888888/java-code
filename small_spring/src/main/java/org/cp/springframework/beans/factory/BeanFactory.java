@@ -1,11 +1,9 @@
 package org.cp.springframework.beans.factory;
 
-
 import org.cp.springframework.beans.BeansException;
 
 /**
- * @author: cp
- * @date: 2024-10-25 20:15
+ * 作者：DerekYRC https://github.com/DerekYRC/mini-spring
  */
 public interface BeanFactory {
 

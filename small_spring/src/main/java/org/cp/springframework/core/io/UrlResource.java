@@ -8,11 +8,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.net.URLConnection;
 
-/**
- * @author: cp
- * @date: 2024-10-27 17:07
- */
-public class UrlResource  implements Resource{
+public class UrlResource implements Resource{
 
     private final URL url;
 
@@ -34,4 +30,5 @@ public class UrlResource  implements Resource{
             throw ex;
         }
     }
+
 }

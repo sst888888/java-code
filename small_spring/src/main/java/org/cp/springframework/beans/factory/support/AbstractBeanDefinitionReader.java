@@ -1,10 +1,19 @@
 package org.cp.springframework.beans.factory.support;
 
+import org.cp.springframework.beans.BeansException;
 import org.cp.springframework.core.io.DefaultResourceLoader;
 import org.cp.springframework.core.io.ResourceLoader;
+
 /**
- * @author: cp
- * @date: 2024-10-27 17:20
+ * Abstract base class for bean definition readers which implement
+ * the {@link BeanDefinitionReader} interface.
+ * <p>
+ *
+ *
+ *
+ *
+ *
+ * 作者：DerekYRC https://github.com/DerekYRC/mini-spring
  */
 public abstract class AbstractBeanDefinitionReader implements BeanDefinitionReader {
 
@@ -30,6 +39,5 @@ public abstract class AbstractBeanDefinitionReader implements BeanDefinitionRead
     public ResourceLoader getResourceLoader() {
         return resourceLoader;
     }
-
 
 }

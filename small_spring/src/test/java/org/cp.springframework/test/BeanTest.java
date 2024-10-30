@@ -6,7 +6,7 @@ import org.cp.springframework.beans.PropertyValues;
 import org.cp.springframework.beans.factory.config.BeanDefinition;
 import org.cp.springframework.beans.factory.config.BeanReference;
 import org.cp.springframework.beans.factory.support.DefaultListableBeanFactory;
-import org.cp.springframework.test.bean.UserDao;
+//import org.cp.springframework.test.bean.UserDao;
 import org.cp.springframework.test.bean.UserService;
 
 /**

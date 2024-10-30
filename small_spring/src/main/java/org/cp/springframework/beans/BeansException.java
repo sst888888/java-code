@@ -1,8 +1,7 @@
 package org.cp.springframework.beans;
 
 /**
- * @author: cp
- * @date: 2024-10-25 20:06
+ * 作者：DerekYRC https://github.com/DerekYRC/mini-spring
  */
 public class BeansException extends RuntimeException {
 

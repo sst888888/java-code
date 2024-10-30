@@ -1,8 +1,8 @@
 package org.cp.springframework.beans;
 
 /**
- * @author: cp
- * @date: 2024-10-27 14:51
+ * 作者：DerekYRC https://github.com/DerekYRC/mini-spring
+ *
  * bean 属性信息
  */
 public class PropertyValue {

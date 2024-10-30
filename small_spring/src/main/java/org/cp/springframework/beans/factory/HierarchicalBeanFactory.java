@@ -1,8 +1,8 @@
 package org.cp.springframework.beans.factory;
 
 /**
- * @author: cp
- * @date: 2024-10-27 22:34
+ * Sub-interface implemented by bean factories that can be part
+ * of a hierarchy.
  */
-public interface HierarchicalBeanFactory extends BeanFactory{
+public interface HierarchicalBeanFactory extends BeanFactory {
 }

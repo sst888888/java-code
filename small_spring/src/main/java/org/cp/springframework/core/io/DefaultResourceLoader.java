@@ -1,14 +1,10 @@
 package org.cp.springframework.core.io;
 
-
 import cn.hutool.core.lang.Assert;
+
 import java.net.MalformedURLException;
 import java.net.URL;
 
-/**
- * @author: cp
- * @date: 2024-10-27 17:08
- */
 public class DefaultResourceLoader implements ResourceLoader {
 
     @Override
@@ -26,4 +22,5 @@ public class DefaultResourceLoader implements ResourceLoader {
             }
         }
     }
+
 }
