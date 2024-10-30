@@ -1,6 +1,8 @@
 package org.cp.springframework.context;
 
+import org.cp.springframework.beans.factory.HierarchicalBeanFactory;
 import org.cp.springframework.beans.factory.ListableBeanFactory;
+import org.cp.springframework.core.io.ResourceLoader;
 
 /**
  * Central interface to provide configuration for an application.
@@ -16,5 +18,5 @@ import org.cp.springframework.beans.factory.ListableBeanFactory;
  *
  * 作者：DerekYRC https://github.com/DerekYRC/mini-spring
  */
-public interface ApplicationContext extends ListableBeanFactory {
+public interface ApplicationContext extends ListableBeanFactory, HierarchicalBeanFactory, ResourceLoader, ApplicationEventPublisher {
 }

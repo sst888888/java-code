@@ -1,15 +1,5 @@
 
- 	java:S135j"YReduce the total number of break and continue statements in this loop to use at most one.(öºÜÔÿÿÿÿÿ8ş³İÄ­2J$1d1d079d-029c-487f-949c-b344dc6b43ba
- 	java:S135I"YReduce the total number of break and continue statements in this loop to use at most one.(éığöüÿÿÿÿ8ş³İÄ­2J$1414ffe9-7b6c-44b4-80bf-734eefd7ac66
+ 	java:S135n"YReduce the total number of break and continue statements in this loop to use at most one.(öºÜÔÿÿÿÿÿ8ş³İÄ­2J$1d1d079d-029c-487f-949c-b344dc6b43ba
+ 	java:S135M"YReduce the total number of break and continue statements in this loop to use at most one.(éığöüÿÿÿÿ8ş³İÄ­2J$1414ffe9-7b6c-44b4-80bf-734eefd7ac66
 š
-java:S3776D"RRefactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.(Ùóø×úÿÿÿÿ8‡´İÄ­2J$e01a40fe-66be-449c-9167-6bfb40e7e976
-’
-java:S3252["OUse static access with "cn.hutool.core.text.CharSequenceUtil" for "isNotEmpty".(çñİ8‰´İÄ­2J$bcf9bd77-2dc1-49aa-9edc-2d4de65f32d4
-
-java:S3252\"LUse static access with "cn.hutool.core.text.CharSequenceUtil" for "isEmpty".(ôè‚†8Š´İÄ­2J$ced08724-e141-498c-b2f7-419588e20bae
-—
-java:S3252]"OUse static access with "cn.hutool.core.text.CharSequenceUtil" for "lowerFirst".(·ªıÑüÿÿÿÿ8Š´İÄ­2J$5200157e-1387-4d6a-a7d3-0acdbb05caf0
-—
-java:S3252e"OUse static access with "cn.hutool.core.text.CharSequenceUtil" for "isNotEmpty".(ÔèÈ¼şÿÿÿÿ8Š´İÄ­2J$65c93bdd-ebf0-4ae4-a2bf-1a160f7b843c
-—
-java:S3252s"OUse static access with "cn.hutool.core.text.CharSequenceUtil" for "isNotEmpty".(Üèû„ÿÿÿÿÿ8‹´İÄ­2J$da2d19f0-662f-4053-94ea-bcf4c142f9f3
+java:S3776H"RRefactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.(Ùóø×úÿÿÿÿ8‡´İÄ­2J$e01a40fe-66be-449c-9167-6bfb40e7e976
