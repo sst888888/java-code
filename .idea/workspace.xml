@@ -4,25 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30e47135-48ea-470a-ba66-383e654da240" name="Changes" comment="11-event">
-      <change afterPath="$PROJECT_DIR$/small_spring/src/main/java/org/cp/springframework/aop/AdvisedSupport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small_spring/src/main/java/org/cp/springframework/aop/ClassFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small_spring/src/main/java/org/cp/springframework/aop/MethodMatcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small_spring/src/main/java/org/cp/springframework/aop/Pointcut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small_spring/src/main/java/org/cp/springframework/aop/TargetSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small_spring/src/main/java/org/cp/springframework/aop/aspectj/AspectJExpressionPointcut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small_spring/src/main/java/org/cp/springframework/aop/framework/AopProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small_spring/src/main/java/org/cp/springframework/aop/framework/Cglib2AopProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small_spring/src/main/java/org/cp/springframework/aop/framework/JdkDynamicAopProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small_spring/src/main/java/org/cp/springframework/aop/framework/ReflectiveMethodInvocation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small_spring/src/test/java/org/cp.springframework/test/AopTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small_spring/src/test/java/org/cp.springframework/test/bean/DemoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small_spring/src/test/java/org/cp.springframework/test/bean/DemoServiceInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small_spring/src/test/java/org/cp.springframework/test/bean/IDemoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/4/84c183f455aecd6971a4520738ad27c5da7b01da" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/4/84c183f455aecd6971a4520738ad27c5da7b01da" afterDir="false" />
+    <list default="true" id="30e47135-48ea-470a-ba66-383e654da240" name="Changes" comment="12-aop">
+      <change afterPath="$PROJECT_DIR$/small_spring/src/main/java/org/cp/springframework/aop/Advisor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small_spring/src/main/java/org/cp/springframework/aop/BeforeAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small_spring/src/main/java/org/cp/springframework/aop/MethodBeforeAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small_spring/src/main/java/org/cp/springframework/aop/PointcutAdvisor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small_spring/src/main/java/org/cp/springframework/aop/aspectj/AspectJExpressionPointcutAdvisor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small_spring/src/main/java/org/cp/springframework/aop/framework/ProxyFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small_spring/src/main/java/org/cp/springframework/aop/framework/adapter/MethodBeforeAdviceInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small_spring/src/main/java/org/cp/springframework/aop/framework/autoproxy/DefaultAdvisorAutoProxyCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small_spring/src/main/java/org/cp/springframework/beans/factory/config/InstantiationAwareBeanPostProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small_spring/src/test/java/org/cp.springframework/test/Xml13Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small_spring/src/test/java/org/cp.springframework/test/bean/Demo12Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small_spring/src/test/java/org/cp.springframework/test/bean/Demo12ServiceBeforeAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small_spring/src/test/java/org/cp.springframework/test/bean/Demo12ServiceInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small_spring/src/test/java/org/cp.springframework/test/bean/IDemo12Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/5/f5bccbebf8817da893791544609f9cdac97a1454" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/5/f5bccbebf8817da893791544609f9cdac97a1454" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/small_spring/src/main/java/org/cp/springframework/aop/AdvisedSupport.java" beforeDir="false" afterPath="$PROJECT_DIR$/small_spring/src/main/java/org/cp/springframework/aop/AdvisedSupport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/small_spring/src/main/java/org/cp/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/small_spring/src/main/java/org/cp/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/small_spring/src/test/resources/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/small_spring/src/test/resources/spring.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,8 +110,8 @@
       <recent name="lock" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AopTest.test_dynamic">
-    <configuration name="AopTest.test_dynamic" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Xml13Test.test_proxy_method">
+    <configuration name="Xml13Test.test_advisor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="small_spring" />
       <extension name="coverage">
         <pattern>
@@ -117,30 +120,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.cp.springframework.test" />
-      <option name="MAIN_CLASS_NAME" value="org.cp.springframework.test.AopTest" />
-      <option name="METHOD_NAME" value="test_dynamic" />
+      <option name="MAIN_CLASS_NAME" value="org.cp.springframework.test.Xml13Test" />
+      <option name="METHOD_NAME" value="test_advisor" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApiTest.test_factory_bean" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="small_spring" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.bugstack.springframework.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.bugstack.springframework.test" />
-      <option name="MAIN_CLASS_NAME" value="cn.bugstack.springframework.test.ApiTest" />
-      <option name="METHOD_NAME" value="test_factory_bean" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EventTest.test_event" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Xml13Test.test_aop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="small_spring" />
       <extension name="coverage">
         <pattern>
@@ -149,14 +136,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.cp.springframework.test" />
-      <option name="MAIN_CLASS_NAME" value="org.cp.springframework.test.EventTest" />
-      <option name="METHOD_NAME" value="test_event" />
+      <option name="MAIN_CLASS_NAME" value="org.cp.springframework.test.Xml13Test" />
+      <option name="METHOD_NAME" value="test_aop" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Xml10Test.test_factory_bean" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Xml13Test.test_beforeAdvice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="small_spring" />
       <extension name="coverage">
         <pattern>
@@ -165,14 +152,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.cp.springframework.test" />
-      <option name="MAIN_CLASS_NAME" value="org.cp.springframework.test.Xml10Test" />
-      <option name="METHOD_NAME" value="test_factory_bean" />
+      <option name="MAIN_CLASS_NAME" value="org.cp.springframework.test.Xml13Test" />
+      <option name="METHOD_NAME" value="test_beforeAdvice" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Xml10Test.test_prototype" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Xml13Test.test_proxyFactory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="small_spring" />
       <extension name="coverage">
         <pattern>
@@ -181,8 +168,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.cp.springframework.test" />
-      <option name="MAIN_CLASS_NAME" value="org.cp.springframework.test.Xml10Test" />
-      <option name="METHOD_NAME" value="test_prototype" />
+      <option name="MAIN_CLASS_NAME" value="org.cp.springframework.test.Xml13Test" />
+      <option name="METHOD_NAME" value="test_proxyFactory" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Xml13Test.test_proxy_method" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="small_spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.cp.springframework.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.cp.springframework.test" />
+      <option name="MAIN_CLASS_NAME" value="org.cp.springframework.test.Xml13Test" />
+      <option name="METHOD_NAME" value="test_proxy_method" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -203,11 +206,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AopTest.test_dynamic" />
-        <item itemvalue="JUnit.EventTest.test_event" />
-        <item itemvalue="JUnit.Xml10Test.test_factory_bean" />
-        <item itemvalue="JUnit.Xml10Test.test_prototype" />
-        <item itemvalue="JUnit.ApiTest.test_factory_bean" />
+        <item itemvalue="JUnit.Xml13Test.test_proxy_method" />
+        <item itemvalue="JUnit.Xml13Test.test_aop" />
+        <item itemvalue="JUnit.Xml13Test.test_advisor" />
+        <item itemvalue="JUnit.Xml13Test.test_beforeAdvice" />
+        <item itemvalue="JUnit.Xml13Test.test_proxyFactory" />
       </list>
     </recent_temporary>
   </component>
@@ -219,13 +222,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1695565794566</updated>
-    </task>
-    <task id="LOCAL-00017" summary="lock">
-      <created>1704783141038</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1704783141038</updated>
     </task>
     <task id="LOCAL-00018" summary="lock">
       <created>1704785075784</created>
@@ -563,7 +559,14 @@
       <option name="project" value="LOCAL" />
       <updated>1730279383451</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="12-aop">
+      <created>1730292278779</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1730292278779</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -579,7 +582,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="多线程校验" />
     <MESSAGE value="kafka" />
     <MESSAGE value="upload file" />
     <MESSAGE value="excel 代码" />
@@ -604,7 +606,8 @@
     <MESSAGE value="09-Aware" />
     <MESSAGE value="10-prototype" />
     <MESSAGE value="11-event" />
-    <option name="LAST_COMMIT_MESSAGE" value="11-event" />
+    <MESSAGE value="12-aop" />
+    <option name="LAST_COMMIT_MESSAGE" value="12-aop" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -648,41 +651,6 @@
           <option name="timeStamp" value="42" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/small_spring/src/main/java/org/cp/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java</url>
-          <line>44</line>
-          <option name="timeStamp" value="60" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/small_spring/src/main/java/org/cp/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java</url>
-          <line>42</line>
-          <option name="timeStamp" value="61" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/small_spring/src/main/java/org/cp/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java</url>
-          <line>38</line>
-          <option name="timeStamp" value="64" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/small_spring/src/main/java/org/cp/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java</url>
-          <line>40</line>
-          <option name="timeStamp" value="65" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/small_spring/src/main/java/org/cp/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java</url>
-          <line>76</line>
-          <option name="timeStamp" value="66" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/small_spring/src/main/java/org/cp/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java</url>
-          <line>72</line>
-          <option name="timeStamp" value="67" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/small_spring/src/main/java/org/cp/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java</url>
-          <line>67</line>
-          <option name="timeStamp" value="68" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/small_spring/src/main/java/org/cp/springframework/beans/factory/support/CglibSubclassingInstantiationStrategy.java</url>
           <line>22</line>
           <option name="timeStamp" value="73" />
@@ -691,11 +659,6 @@
           <url>jar://$MAVEN_REPOSITORY$/cglib/cglib/3.1/cglib-3.1.jar!/net/sf/cglib/proxy/Enhancer.class</url>
           <line>158</line>
           <option name="timeStamp" value="74" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/small_spring/src/main/java/org/cp/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java</url>
-          <line>104</line>
-          <option name="timeStamp" value="75" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/small_spring/src/main/java/org/cp/springframework/beans/factory/support/CglibSubclassingInstantiationStrategy.java</url>
