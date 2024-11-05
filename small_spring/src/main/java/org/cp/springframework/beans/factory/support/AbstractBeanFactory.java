@@ -7,6 +7,7 @@ import org.cp.springframework.beans.factory.config.BeanDefinition;
 import org.cp.springframework.beans.factory.config.BeanPostProcessor;
 import org.cp.springframework.beans.factory.config.ConfigurableBeanFactory;
 import org.cp.springframework.util.ClassUtils;
+import org.cp.springframework.util.StringValueResolver;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -27,6 +28,9 @@ public abstract class AbstractBeanFactory extends FactoryBeanRegistrySupport imp
      * BeanPostProcessors to apply in createBean
      */
     private final List<BeanPostProcessor> beanPostProcessors = new ArrayList<BeanPostProcessor>();
+
+    private final List<StringValueResolver> embeddedValueResolvers = new ArrayList<>();
+
 
     @Override
     public Object getBean(String name) throws BeansException {
@@ -79,6 +83,22 @@ public abstract class AbstractBeanFactory extends FactoryBeanRegistrySupport imp
         this.beanPostProcessors.remove(beanPostProcessor);
         this.beanPostProcessors.add(beanPostProcessor);
     }
+
+
+    @Override
+    public void addEmbeddedValueResolver(StringValueResolver valueResolver) {
+        this.embeddedValueResolvers.add(valueResolver);
+    }
+
+    @Override
+    public String resolveEmbeddedValue(String value) {
+        String result = value;
+        for (StringValueResolver resolver : this.embeddedValueResolvers) {
+            result = resolver.resolveStringValue(result);
+        }
+        return result;
+    }
+
 
     /**
      * Return the list of BeanPostProcessors that will get applied

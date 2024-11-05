@@ -1,6 +1,7 @@
 package org.cp.springframework.beans.factory.config;
 
 import org.cp.springframework.beans.BeansException;
+import org.cp.springframework.beans.PropertyValues;
 
 /**
  * @author: cp
@@ -21,5 +22,8 @@ public interface InstantiationAwareBeanPostProcessor extends BeanPostProcessor{
      * @throws BeansException
      */
     Object postProcessBeforeInstantiation(Class<?> beanClass, String beanName) throws BeansException;
+
+    PropertyValues postProcessPropertyValues(PropertyValues pvs, Object bean, String beanName) throws BeansException;
+
 
 }

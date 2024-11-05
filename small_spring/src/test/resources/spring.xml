@@ -1,38 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<beans>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+	         http://www.springframework.org/schema/beans/spring-beans.xsd
+		 http://www.springframework.org/schema/context">
 
-    <bean id="userService" class="org.cp.springframework.test.bean.UserService" scope="prototype">
-        <property name="uId" value="10001"/>
-        <property name="company" value="腾讯"/>
-        <property name="location" value="深圳"/>
-        <property name="userDao" ref="proxyUserDao"/>
+    <bean class="org.cp.springframework.beans.factory.PropertyPlaceholderConfigurer">
+        <property name="location" value="classpath:token.properties"/>
     </bean>
 
-    <bean id="proxyUserDao" class="org.cp.springframework.test.bean.ProxyBeanFactory"/>
-
-
-    <bean class="org.cp.springframework.test.event.ContextRefreshedEventListener"/>
-
-    <bean class="org.cp.springframework.test.event.CustomEventListener"/>
-
-    <bean class="org.cp.springframework.test.event.ContextClosedEventListener"/>
-
-
-
-    <bean id="demo12Service" class="org.cp.springframework.test.bean.Demo12Service"/>
-
-    <bean class="org.cp.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator"/>
-
-    <bean id="beforeAdvice" class="org.cp.springframework.test.bean.Demo12ServiceBeforeAdvice"/>
-
-    <bean id="methodInterceptor" class="org.cp.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor">
-        <property name="advice" ref="beforeAdvice"/>
-    </bean>
-
-    <bean id="pointcutAdvisor" class="org.cp.springframework.aop.aspectj.AspectJExpressionPointcutAdvisor">
-        <property name="expression" value="execution(* org.cp.springframework.test.bean.IDemo12Service.*(..))"/>
-        <property name="advice" ref="methodInterceptor"/>
-    </bean>
-
+    <context:component-scan base-package="org.cp.springframework.test.bean15"/>
 
 </beans>

@@ -1,5 +1,5 @@
 
- 	java:S135n"YReduce the total number of break and continue statements in this loop to use at most one.(öºÜÔÿÿÿÿÿ8þ³ÝÄ­2J$1d1d079d-029c-487f-949c-b344dc6b43ba
- 	java:S135M"YReduce the total number of break and continue statements in this loop to use at most one.(éýðöüÿÿÿÿ8þ³ÝÄ­2J$1414ffe9-7b6c-44b4-80bf-734eefd7ac66
+v
+java:S2755K"3Disable access to external entities in XML parsing.(ž©›ï8¹æÑ½¯2J$0b74e0cf-945c-408b-b7dd-961244e9468b
 š
-java:S3776H"RRefactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.(Ùóø×úÿÿÿÿ8‡´ÝÄ­2J$e01a40fe-66be-449c-9167-6bfb40e7e976
+java:S3776J"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(ÙÉª–ùÿÿÿÿ8åÀÇ½¯2J$099a2773-9af2-42af-bf01-b9f4a9917e52
