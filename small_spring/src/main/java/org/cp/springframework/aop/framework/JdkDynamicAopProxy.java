@@ -34,5 +34,4 @@ public class JdkDynamicAopProxy implements AopProxy, InvocationHandler {
         return method.invoke(advised.getTargetSource().getTarget(), args);
     }
 
-
 }

@@ -13,6 +13,7 @@ import org.junit.Test;
 /**
  * @author: cp
  * @date: 2024-10-30 20:39
+ * https://github.com/fuzhengwei/small-spring/blob/main/small-spring-step-15/src/test/java/cn/bugstack/springframework/test/bean2/UserService.java
  */
 public class AopTest {
 
