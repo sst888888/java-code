@@ -4,29 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30e47135-48ea-470a-ba66-383e654da240" name="Changes" comment="15-scan">
-      <change afterPath="$PROJECT_DIR$/small_spring/src/test/java/org/cp.springframework/test/Xml16Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small_spring/src/test/java/org/cp.springframework/test/bean16/IUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small_spring/src/test/java/org/cp.springframework/test/bean16/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/small_spring/src/test/java/org/cp.springframework/test/bean16/UserServiceBeforeAdvice.java" afterDir="false" />
+    <list default="true" id="30e47135-48ea-470a-ba66-383e654da240" name="Changes" comment="16-aop proxy">
+      <change afterPath="$PROJECT_DIR$/small_spring/src/main/java/org/cp/springframework/beans/factory/ObjectFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small_spring/src/test/java/org/cp.springframework/test/Xml17Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small_spring/src/test/java/org/cp.springframework/test/bean17/Husband.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small_spring/src/test/java/org/cp.springframework/test/bean17/HusbandMother.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small_spring/src/test/java/org/cp.springframework/test/bean17/IMother.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small_spring/src/test/java/org/cp.springframework/test/bean17/SpouseAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small_spring/src/test/java/org/cp.springframework/test/bean17/Wife.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/small_spring/src/test/resources/spring17.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/d/1d37267d17dfe8a62086d55718d75169c3e448e5" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/d/1d37267d17dfe8a62086d55718d75169c3e448e5" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/a/2a246f2e2857927b8c4ca7984fa6fa827668f156" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/a/2a246f2e2857927b8c4ca7984fa6fa827668f156" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/a/2aa9d01a8c3d00cf3fedfede169c3a85e971a1cc" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/a/2aa9d01a8c3d00cf3fedfede169c3a85e971a1cc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/b/2b70c7c3146c2d0c899988faa9c536de1fdcc352" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/b/2b70c7c3146c2d0c899988faa9c536de1fdcc352" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/4/84c183f455aecd6971a4520738ad27c5da7b01da" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/4/84c183f455aecd6971a4520738ad27c5da7b01da" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/e/aebf08a356f7c919fe460115f445a9bcfec19505" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/e/aebf08a356f7c919fe460115f445a9bcfec19505" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/5/f5bccbebf8817da893791544609f9cdac97a1454" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/5/f5bccbebf8817da893791544609f9cdac97a1454" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/small_spring/src/main/java/org/cp/springframework/aop/TargetSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/small_spring/src/main/java/org/cp/springframework/aop/TargetSource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/small_spring/src/main/java/org/cp/springframework/aop/framework/Cglib2AopProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/small_spring/src/main/java/org/cp/springframework/aop/framework/Cglib2AopProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/small_spring/src/main/java/org/cp/springframework/aop/framework/JdkDynamicAopProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/small_spring/src/main/java/org/cp/springframework/aop/framework/JdkDynamicAopProxy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/small_spring/src/main/java/org/cp/springframework/aop/framework/autoproxy/DefaultAdvisorAutoProxyCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/small_spring/src/main/java/org/cp/springframework/aop/framework/autoproxy/DefaultAdvisorAutoProxyCreator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/small_spring/src/main/java/org/cp/springframework/beans/factory/annotation/AutowiredAnnotationBeanPostProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/small_spring/src/main/java/org/cp/springframework/beans/factory/annotation/AutowiredAnnotationBeanPostProcessor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/small_spring/src/main/java/org/cp/springframework/beans/factory/config/InstantiationAwareBeanPostProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/small_spring/src/main/java/org/cp/springframework/beans/factory/config/InstantiationAwareBeanPostProcessor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/small_spring/src/main/java/org/cp/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/small_spring/src/main/java/org/cp/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/small_spring/src/test/java/org/cp.springframework/test/AopTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/small_spring/src/test/java/org/cp.springframework/test/AopTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/small_spring/src/test/resources/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/small_spring/src/test/resources/spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/small_spring/src/main/java/org/cp/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/small_spring/src/main/java/org/cp/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,8 +35,8 @@
         <option value="Enum" />
         <option value="FxmlFile" />
         <option value="Kotlin Interface" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -112,23 +108,7 @@
       <recent name="lock" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Xml16Test.test_autoProxy">
-    <configuration name="Xml13Test.test_advisor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="small_spring" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.cp.springframework.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.cp.springframework.test" />
-      <option name="MAIN_CLASS_NAME" value="org.cp.springframework.test.Xml13Test" />
-      <option name="METHOD_NAME" value="test_advisor" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Xml17Test.test_circular">
     <configuration name="Xml13Test.test_aop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="small_spring" />
       <extension name="coverage">
@@ -193,6 +173,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Xml17Test.test_circular" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="small_spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.cp.springframework.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.cp.springframework.test" />
+      <option name="MAIN_CLASS_NAME" value="org.cp.springframework.test.Xml17Test" />
+      <option name="METHOD_NAME" value="test_circular" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="java-code2023" />
       <method v="2">
@@ -208,11 +204,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Xml17Test.test_circular" />
         <item itemvalue="JUnit.Xml16Test.test_autoProxy" />
         <item itemvalue="JUnit.Xml15Test.test_scan" />
         <item itemvalue="JUnit.Xml13Test.test_proxy_method" />
         <item itemvalue="JUnit.Xml13Test.test_aop" />
-        <item itemvalue="JUnit.Xml13Test.test_advisor" />
       </list>
     </recent_temporary>
   </component>
@@ -224,13 +220,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1695565794566</updated>
-    </task>
-    <task id="LOCAL-00020" summary="mybatis拦截器">
-      <created>1705484388961</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1705484388961</updated>
     </task>
     <task id="LOCAL-00021" summary="mybatis拦截器">
       <created>1705484398357</created>
@@ -568,7 +557,14 @@
       <option name="project" value="LOCAL" />
       <updated>1730783241993</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="16-aop proxy">
+      <created>1730792807246</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1730792807246</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -584,7 +580,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="excel 代码" />
     <MESSAGE value="RSA" />
     <MESSAGE value="二叉树遍历" />
     <MESSAGE value="es脚本" />
@@ -609,7 +604,8 @@
     <MESSAGE value="12-aop" />
     <MESSAGE value="13-aop" />
     <MESSAGE value="15-scan" />
-    <option name="LAST_COMMIT_MESSAGE" value="15-scan" />
+    <MESSAGE value="16-aop proxy" />
+    <option name="LAST_COMMIT_MESSAGE" value="16-aop proxy" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

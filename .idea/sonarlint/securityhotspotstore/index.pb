@@ -1409,3 +1409,17 @@ Osmall_spring/src/test/java/org/cp.springframework/test/bean16/IUserService.java
 Nsmall_spring/src/test/java/org/cp.springframework/test/bean16/UserService.java,6/9/692edd815520281ac48534a95ef18f779e46c704
 Š
 Zsmall_spring/src/test/java/org/cp.springframework/test/bean16/UserServiceBeforeAdvice.java,5/0/50a69ac30fc6278cf842f12ba8e14e2bacff9b20
+z
+Jsmall_spring/src/test/java/org/cp.springframework/test/bean17/Husband.java,d/3/d36bf10b1fabebddf1a1a98819f7afe85d45cd40
+€
+Psmall_spring/src/test/java/org/cp.springframework/test/bean17/HusbandMother.java,8/5/85ee55bd031b172eb04dcb39b9d0014aa44b0e0a
+z
+Jsmall_spring/src/test/java/org/cp.springframework/test/bean17/IMother.java,8/1/8142c168d51b238b02f9cec2cdbbd145ea62ec62
+
+Osmall_spring/src/test/java/org/cp.springframework/test/bean17/SpouseAdvice.java,3/a/3a5736e82d93e588d30eeff93056bd7fafae6aa6
+w
+Gsmall_spring/src/test/java/org/cp.springframework/test/bean17/Wife.java,7/3/73fa8a9e90912d59bad70f2ea98d48d396026d2e
+u
+Esmall_spring/src/test/java/org/cp.springframework/test/Xml17Test.java,6/7/67742cf0841772d4b8715b029fb7b0164d863e78
+‚
+Rsmall_spring/src/main/java/org/cp/springframework/beans/factory/ObjectFactory.java,2/b/2b7db59f89f5c6399a991472a1dec287684c5938

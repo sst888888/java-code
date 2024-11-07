@@ -1,3 +1,7 @@
 
-v
-java:S1128".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ8Œöá­2J$b90402eb-dc46-44b0-b52c-f29d6ad526c4
+œ
+java:S2293%"YReplace the type specification in this constructor call with the diamond operator ("<>").(–Ø¸à8Ôşà¯2J$51896475-33e1-48ad-990b-65f9610cc3e4
+œ
+java:S2293+"YReplace the type specification in this constructor call with the diamond operator ("<>").(˜½…Ì8Ôşà¯2J$a8ee6263-97c2-4a93-a474-4a804f80b2c3
+k
+java:S38243"NReplace this "Map.get()" and condition with a call to "Map.computeIfAbsent()".(øÈÑú8üÀ¥¬°2
