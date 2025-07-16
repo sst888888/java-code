@@ -3,22 +3,41 @@ package com.example.controller;
 import com.example.cancel.CancelOrderService;
 import com.example.cancel.CancelOrderServiceStrategyFactory;
 import com.example.entity.UploadFile;
+import com.example.entity.XssDTO;
 import com.example.release.ReleaseDTO;
 import com.example.release.ReleaseHandler;
 import com.example.release.ReleaseHandlerFactory;
 import com.example.risk.ReqVo;
 import com.example.risk.StrategyHandler;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.validation.BindingResult;
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.io.IOException;
 import java.io.InputStream;
 
-
-@RestController
 @Slf4j
+@RestController
+@RequestMapping("/strategy/")
 public class StrategyController {
+
+//    @PostMapping(value = "/test/xss")
+//    public String xss(@Validated @RequestBody XssDTO xssDTO, BindingResult result) {
+//        if (result.hasErrors()) {
+//            // 返回错误信息
+////            return result.getAllErrors().toString();
+//            return result.getAllErrors().get(0).getDefaultMessage();
+//        }
+//        return "ok";
+//    }
+
+
+    @PostMapping(value = "/test/xss")
+    public String xss(@Validated @RequestBody XssDTO xssDTO) {
+        return "ok";
+    }
 
 
     @RequestMapping(value = "/test/cancel/{category}", method = RequestMethod.GET)

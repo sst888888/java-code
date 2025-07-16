@@ -61,6 +61,13 @@
 			<scope>compile</scope>
 		</dependency>
 
+
+		<dependency>
+			<groupId>com.github.jsqlparser</groupId>
+			<artifactId>jsqlparser</artifactId>
+			<version>4.9</version> <!-- 检查最新版本 -->
+	    </dependency>
+
 	</dependencies>
 
 	<build>
