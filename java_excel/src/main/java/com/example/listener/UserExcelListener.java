@@ -25,7 +25,7 @@ public class UserExcelListener extends AnalysisEventListener<User> {
     /**
      * 批处理阈值
      */
-    private static final int BATCH_COUNT = 2;
+    private static final int BATCH_COUNT = 20000000;
     List<User> list = new ArrayList<User>(BATCH_COUNT);
     @Override
     public void invoke(User user, AnalysisContext analysisContext) {

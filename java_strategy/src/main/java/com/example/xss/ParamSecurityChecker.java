@@ -1,6 +1,10 @@
 package com.example.xss;
 
+import java.math.BigDecimal;
 import java.security.InvalidParameterException;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.util.concurrent.ThreadLocalRandom;
 import java.util.regex.Pattern;
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
@@ -45,5 +49,17 @@ public class ParamSecurityChecker {
         } catch (JSQLParserException e) {
         }
 
+    }
+
+    public static void main(String[] args) {
+        double nextDouble = ThreadLocalRandom.current().nextDouble(10,
+                100);
+        System.out.println(BigDecimal.valueOf(nextDouble));
+
+        LocalDate today = LocalDate.now();
+        System.out.println(today.atStartOfDay());
+
+        LocalDateTime localDateTime2 = today.plusDays(1).atStartOfDay();
+        System.out.println(localDateTime2);
     }
 }
