@@ -4,58 +4,46 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30e47135-48ea-470a-ba66-383e654da240" name="Changes" comment="xss">
-      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/controller/ExcelController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/entity/AjaxResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/entity/BaseException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/entity/CacheConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/entity/CharsetKit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/entity/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/entity/Convert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/entity/DateUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/entity/DictUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/entity/Excel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/entity/ExcelHandlerAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/entity/ExcelUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/entity/Excels.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/entity/FileException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/entity/FileNameLengthLimitExceededException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/entity/FileSizeLimitExceededException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/entity/FileTypeUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/entity/FileUploadUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/entity/FileUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/entity/HttpStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/entity/IdUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/entity/ImageUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/entity/InvalidExtensionException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/entity/Member4PhoneDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/entity/MemberStaticExcelVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/entity/MessageUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/entity/MimeTypeUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/entity/MinioConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/entity/MinioUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/entity/RedisCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/entity/ReflectUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/entity/RuoYiConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/entity/Seq.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/entity/ServletUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/entity/SpringUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/entity/StrFormatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/entity/StringUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/entity/SysDictData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/entity/ThreadPoolUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/entity/UtilException.java" afterDir="false" />
+    <list default="true" id="30e47135-48ea-470a-ba66-383e654da240" name="Changes" comment="20260425">
+      <change afterPath="$PROJECT_DIR$/20260425_design_patterns/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20260425_design_patterns/src/main/java/com/org/StartApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20260425_design_patterns/src/main/java/com/org/creational/DclSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20260425_design_patterns/src/main/java/com/org/creational/EagerSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20260425_design_patterns/src/main/java/com/org/creational/GlobalCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20260425_design_patterns/src/main/java/com/org/creational/InnerSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20260425_design_patterns/src/main/java/com/org/creational/LazySingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20260425_design_patterns/src/main/java/com/org/creational/abstractFactory/ResourceLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20260425_design_patterns/src/main/java/com/org/creational/abstractFactory/product/AbstractResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20260425_design_patterns/src/main/java/com/org/creational/abstractFactory/product/impl/DefaultResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20260425_design_patterns/src/main/java/com/org/creational/abstractFactory/product/impl/FileResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20260425_design_patterns/src/main/java/com/org/creational/abstractFactory/product/impl/HttpResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20260425_design_patterns/src/main/java/com/org/creational/abstractFactory/productFactory/IResourceLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20260425_design_patterns/src/main/java/com/org/creational/abstractFactory/productFactory/impl/DefaultResourceLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20260425_design_patterns/src/main/java/com/org/creational/abstractFactory/productFactory/impl/FileResourceLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20260425_design_patterns/src/main/java/com/org/creational/abstractFactory/productFactory/impl/HttpResourceLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20260425_design_patterns/src/main/java/com/org/creational/factoryMethod/ResourceLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20260425_design_patterns/src/main/java/com/org/creational/factoryMethod/resourceFactory/IResourceLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20260425_design_patterns/src/main/java/com/org/creational/factoryMethod/resourceFactory/impl/DefaultResourceLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20260425_design_patterns/src/main/java/com/org/creational/factoryMethod/resourceFactory/impl/FileResourceLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20260425_design_patterns/src/main/java/com/org/creational/factoryMethod/resourceFactory/impl/HttpResourceLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20260425_design_patterns/src/main/java/com/org/creational/prototype/deepCopy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20260425_design_patterns/src/main/java/com/org/creational/prototype/deepCopy/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20260425_design_patterns/src/main/java/com/org/creational/prototype/deepCopy/PromotionEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20260425_design_patterns/src/main/java/com/org/creational/prototype/deepCopy/PromotionRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20260425_design_patterns/src/main/java/com/org/creational/prototype/shallowCopy/Playlist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20260425_design_patterns/src/main/java/com/org/creational/prototype/shallowCopy/Playlist2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20260425_design_patterns/src/main/java/com/org/creational/prototype/shallowCopy/Song.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20260425_design_patterns/src/main/java/com/org/creational/simpleFactory/Resource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20260425_design_patterns/src/main/java/com/org/creational/simpleFactory/ResourceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20260425_design_patterns/src/main/java/com/org/creational/simpleFactory/ResourceLoadException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20260425_design_patterns/src/main/java/com/org/creational/simpleFactory/ResourceLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20260425_design_patterns/src/main/resources/resourceLoader.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20260425_design_patterns/src/main/resources/resourceLoader2.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20260425_design_patterns/src/test/java/SingletonTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_excel/src/main/java/com/example/controller/excelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_excel/src/main/java/com/example/controller/excelController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_excel/src/main/java/com/example/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_excel/src/main/java/com/example/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_excel/src/main/java/com/example/listener/UserExcelListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_excel/src/main/java/com/example/listener/UserExcelListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_excel/src/main/java/com/example/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_excel/src/main/java/com/example/service/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_excel/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/java_excel/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_strategy/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java_strategy/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/JavaStrategyApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/JavaStrategyApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/xss/ParamSecurityChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_strategy/src/main/java/com/example/xss/ParamSecurityChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,10 +53,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="FxmlFile" />
         <option value="Kotlin Interface" />
         <option value="AnnotationType" />
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -88,6 +76,11 @@
     &quot;accountId&quot;: &quot;a6c189fe-2fd2-4628-9eaa-f5bd0a4d12dd&quot;
   }
 }</component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="JUnit" name="SingletonTest.testReflect" />
+    </enabled-run-configurations>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -104,47 +97,51 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;JUnit.AopTest.test_dynamic.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/nuolan/Documents/java-code2023/small_spring/src/test/resources&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDK&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.24482758&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;应用程序.JavaExcelApplication.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.JavaStrategyApplication.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.Main.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.ParamSecurityChecker.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.SpringBootKafkaDemoApplication.executor&quot;: &quot;Run&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "JUnit.AopTest.test_dynamic.executor": "Run",
+    "JUnit.SingletonTest.test01.executor": "Run",
+    "JUnit.SingletonTest.testReflect.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "/Users/andongni/IdeaProjects/java-code/20260425_design_patterns/src/main/resources",
+    "onboarding.tips.debug.path": "/Users/andongni/IdeaProjects/java-code/20260425_design_patterns/src/main/java/com/org/Main.java",
+    "project.structure.last.edited": "SDK",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.24482758",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "应用程序.JavaExcelApplication.executor": "Run",
+    "应用程序.JavaStrategyApplication.executor": "Run",
+    "应用程序.Main.executor": "Run",
+    "应用程序.ParamSecurityChecker.executor": "Run",
+    "应用程序.Playlist.executor": "Run",
+    "应用程序.SpringBootKafkaDemoApplication.executor": "Run"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/20260425_design_patterns/src/main/resources" />
+      <recent name="$PROJECT_DIR$/20260425_design_patterns/src/main/java/com/org/creational/abstractFactory/productFactory" />
       <recent name="$PROJECT_DIR$/small_spring/src/test/resources" />
       <recent name="$PROJECT_DIR$/java_strategy/src/main/resources/applicationContext" />
       <recent name="$PROJECT_DIR$/java_mybatis/src/main/java/org/jdbc/tuomin/d2" />
-      <recent name="$PROJECT_DIR$/java_mybatis/src/main/java/org/jdbc/tuomin/d1" />
-      <recent name="$PROJECT_DIR$/java_strategy/src/main/java/com/example" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/java_algorithm/src/main/java" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.org.creational.abstractFactory" />
+      <recent name="com.org.creational.factoryMethod" />
       <recent name="org.cp.springframework.test" />
       <recent name="com.example.controller" />
       <recent name="com.example.cmd" />
-      <recent name="excel" />
-      <recent name="lock" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.JavaExcelApplication">
+  <component name="RunManager" selected="应用程序.Playlist">
     <configuration name="JavaExcelApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.JavaExcelApplication" />
       <module name="java_excel" />
@@ -171,12 +168,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.zk.Main" />
-      <module name="java_zk" />
+    <configuration name="Playlist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.org.creational.prototype.shallowCopy.Playlist" />
+      <module name="20260425_design_patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.zk.*" />
+          <option name="PATTERN" value="com.org.creational.prototype.shallowCopy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -184,28 +181,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParamSecurityChecker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.xss.ParamSecurityChecker" />
-      <module name="java_strategy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.xss.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="SingletonTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="20260425_design_patterns" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SingletonTest" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringBootKafkaDemoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bootkafka.springbootkafkademo.SpringBootKafkaDemoApplication" />
-      <module name="spring-boot-kafka-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bootkafka.springbootkafkademo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="SingletonTest.testReflect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="20260425_design_patterns" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SingletonTest" />
+      <option name="METHOD_NAME" value="testReflect" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -225,11 +216,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.Playlist" />
+        <item itemvalue="JUnit.SingletonTest.testReflect" />
+        <item itemvalue="JUnit.SingletonTest.test01" />
         <item itemvalue="应用程序.JavaExcelApplication" />
         <item itemvalue="应用程序.JavaStrategyApplication" />
-        <item itemvalue="应用程序.ParamSecurityChecker" />
-        <item itemvalue="应用程序.SpringBootKafkaDemoApplication" />
-        <item itemvalue="应用程序.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -585,7 +576,7 @@
       <option name="project" value="LOCAL" />
       <updated>1730964711606</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -601,7 +592,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="es脚本" />
     <MESSAGE value="图遍历" />
     <MESSAGE value="modify" />
     <MESSAGE value="哈希优化" />
@@ -626,7 +616,8 @@
     <MESSAGE value="16-aop proxy" />
     <MESSAGE value="17-circular" />
     <MESSAGE value="xss" />
-    <option name="LAST_COMMIT_MESSAGE" value="xss" />
+    <MESSAGE value="20260425" />
+    <option name="LAST_COMMIT_MESSAGE" value="20260425" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
